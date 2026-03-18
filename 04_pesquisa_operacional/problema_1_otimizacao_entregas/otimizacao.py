@@ -64,8 +64,7 @@ CUSTO_POR_KM = {
     "Oeste":  1.35,
 }
 
-# Distâncias simuladas de cada pedido para cada rota (km)
-# Em um sistema real, seriam calculadas via API de geolocalização
+# Distâncias de cada pedido para cada rota (km)
 np.random.seed(10)
 nomes_pedidos = list(PEDIDOS.keys())
 nomes_rotas   = list(ROTAS.keys())

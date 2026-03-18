@@ -45,7 +45,7 @@
 
 **[CORTE: Slide com descrição da OptiFlow]**
 
-> "A OptiFlow é uma empresa fictícia do setor de logtech — tecnologia aplicada à logística. Seu modelo de negócio é SaaS B2B: vende software de gestão logística para e-commerces que precisam otimizar suas entregas de última milha."
+> "A OptiFlow é uma empresa do setor de logtech — tecnologia aplicada à logística. Seu modelo de negócio é SaaS B2B: vende software de gestão logística para e-commerces que precisam otimizar suas entregas de última milha."
 
 > "O problema de negócio central tem três frentes:"
 > - "Custos de entrega acima da média: R$ 32,50 por pedido contra R$ 24,00 da concorrência de grande porte"

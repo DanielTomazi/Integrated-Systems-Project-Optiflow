@@ -13,7 +13,7 @@ A OptiFlow precisa determinar a **alocação ótima de pedidos a rotas**, minimi
 - O número máximo de paradas por rota
 - A distância máxima percorrida por rota
 
-Este problema é uma variação do **Capacitated Vehicle Routing Problem (CVRP)**, simplificado para o contexto acadêmico como um **Problema de Atribuição com Múltiplas Restrições**.
+Este problema é uma variação do **Capacitated Vehicle Routing Problem (CVRP)**, formulado como um **Problema de Atribuição com Múltiplas Restrições**.
 
 ---
 

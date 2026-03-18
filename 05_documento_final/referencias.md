@@ -94,7 +94,3 @@
 **NUMPY DEVELOPMENT TEAM.** *NumPy — The fundamental package for scientific computing with Python*, 2024. Disponível em: https://numpy.org/. Acesso em: jan. 2026.
 
 **GIT SCM.** *Git — Distributed Version Control System*, 2024. Disponível em: https://git-scm.com/. Acesso em: jan. 2026.
-
----
-
-> **Nota:** As referências devem ser verificadas e complementadas conforme o material efetivamente utilizado na elaboração do trabalho. Seguir as normas ABNT NBR 14724:2011 para formatação do trabalho final.

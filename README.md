@@ -127,8 +127,8 @@ OptiFlow-Projeto-Integrador/
 │       └── analise_cenarios.py
 │
 ├── 05_documento_final/
-│   ├── modelo_relatorio_final.md       ← template/estrutura do relatório
-│   ├── relatorio_final_PENDENTE_PDF.md ← ⚠️ substituir pelo PDF final
+│   ├── modelo_relatorio_final.md
+│   ├── relatorio_final_PENDENTE_PDF.md
 │   └── referencias.md
 │
 └── 06_video_apresentacao/

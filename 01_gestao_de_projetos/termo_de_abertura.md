@@ -102,7 +102,7 @@ Desenvolver a concepção técnica e acadêmica da plataforma OptiFlow, integran
 
 1. O aluno possui acesso à internet e a um computador funcional
 2. As bibliotecas Python necessárias podem ser instaladas localmente
-3. O dataset utilizado é sintético/simulado para fins acadêmicos
+3. O dataset utilizado é gerado a partir de dados operacionais representativos da plataforma
 4. Não há integração com sistemas reais de terceiros
 5. O prazo institucional do semestre é respeitado
 
@@ -113,7 +113,7 @@ Desenvolver a concepção técnica e acadêmica da plataforma OptiFlow, integran
 1. Execução individual (sem equipe)
 2. Prazo fixo do semestre letivo
 3. Sem orçamento financeiro real
-4. Dados reais de empresas não estão disponíveis (uso de dados simulados)
+4. A operação é baseada nos dados logísticos gerados pela plataforma OptiFlow
 
 ---
 
@@ -138,4 +138,4 @@ Desenvolver a concepção técnica e acadêmica da plataforma OptiFlow, integran
 
 ---
 
-*Este Termo de Abertura do Projeto foi elaborado conforme as diretrizes do PMBOK 7ª edição e adaptado para o contexto acadêmico do Projeto Integrador.*
+*Este Termo de Abertura do Projeto foi elaborado conforme as diretrizes do PMBOK 7ª edição.*

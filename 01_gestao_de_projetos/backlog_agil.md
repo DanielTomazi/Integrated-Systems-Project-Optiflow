@@ -182,7 +182,7 @@ Uma User Story é considerada **CONCLUÍDA** quando:
 
 ---
 
-## 6. Velocity Histórico (a preencher durante o semestre)
+## 6. Velocity Histórico
 
 | Sprint | Pontos Planejados | Pontos Entregues | Velocity |
 |--------|-------------------|------------------|----------|

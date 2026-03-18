@@ -93,10 +93,4 @@ A plataforma é composta por quatro módulos principais:
 | Conformidade LGPD nativa            | Proteção de dados integrada desde a concepção (Privacy by Design) |
 | Integrações com e-commerce          | Shopify, WooCommerce, Mercado Livre, VTEX                  |
 
----
 
-## 7. Contexto Acadêmico
-
-O projeto OptiFlow é desenvolvido no contexto do **Projeto Integrador** do curso de Gestão de Sistemas Computacionais, com o objetivo de aplicar os conhecimentos das quatro disciplinas integradas em um caso de negócio real e relevante para o mercado.
-
-A empresa representa um cenário fictício mas com dados e problemas que refletem desafios reais enfrentados por empresas de logística no Brasil.

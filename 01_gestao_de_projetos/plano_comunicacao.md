@@ -105,7 +105,7 @@ Aguardo seu feedback até [data].
 
 Atenciosamente,
 Daniel Tomazi de Oliveira
-RA: [A preencher]
+RA:
 ```
 
 ---
