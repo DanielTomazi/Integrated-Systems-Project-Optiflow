@@ -36,12 +36,18 @@ Desenvolver a concepção, planejamento, análise e modelagem de uma plataforma 
 - Relatório final integrador
 - Vídeo de apresentação acadêmica
 
-### 3.2 Fora do Escopo
+### 3.2 Fora do Escopo (original)
 
-- Desenvolvimento de aplicação web funcional (front-end/back-end)
 - Integração com sistemas de ERP reais
 - Infraestrutura de cloud em produção
 - Testes de carga e penetração em ambiente real
+
+### 3.3 Entregável Adicional — Site Institucional
+
+Como entregável complementar ao projeto integrador, foi desenvolvido o **site institucional da OptiFlow** em Angular, disponível em:
+
+- **Site:** [opti-flow-site.vercel.app](https://opti-flow-site.vercel.app/)
+- **Repositório:** [github.com/DanielTomazi/OptiFlow-Site](https://github.com/DanielTomazi/OptiFlow-Site)
 
 ---
 
@@ -97,6 +103,7 @@ O projeto adota uma abordagem **híbrida** combinando:
 3. **Documentação de segurança** com matriz GUT e diretrizes LGPD
 4. **Relatório final** integrador com todos os entregáveis
 5. **Vídeo de apresentação** de até 10 minutos
+6. **Site institucional** em Angular — [opti-flow-site.vercel.app](https://opti-flow-site.vercel.app/)
 
 ---
 

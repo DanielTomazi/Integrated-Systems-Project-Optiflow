@@ -4,6 +4,9 @@
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-green)
 
+> 🌐 **Site institucional:** [opti-flow-site.vercel.app](https://opti-flow-site.vercel.app/)  
+> 💻 **Repositório do site:** [github.com/DanielTomazi/OptiFlow-Site](https://github.com/DanielTomazi/OptiFlow-Site)
+
 ---
 
 ## Identificação
@@ -201,6 +204,16 @@ python analise_cenarios.py
 | 2 | Análise de Dados         | Dataset, ETL, KPIs, Gráficos, Notebook                           |
 | 3 | Segurança da Informação  | Mapeamento de Ameaças, Matriz GUT, Autenticação, LGPD            |
 | 4 | Pesquisa Operacional     | Otimização de Rotas, Alocação de Motoristas, Análise de Cenários |
+
+---
+
+## Links do Projeto
+
+| Recurso | URL |
+|---------|-----|
+| Site institucional | [opti-flow-site.vercel.app](https://opti-flow-site.vercel.app/) |
+| Repositório do site (Angular) | [github.com/DanielTomazi/OptiFlow-Site](https://github.com/DanielTomazi/OptiFlow-Site) |
+| Repositório do projeto integrador | [github.com/DanielTomazi](https://github.com/DanielTomazi) |
 
 ---
 
