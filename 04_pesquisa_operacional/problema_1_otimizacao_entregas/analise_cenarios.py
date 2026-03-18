@@ -136,6 +136,7 @@ def resolver_cenario(
 
 def definir_cenarios():
     """Retorna lista de configurações de cada cenário a analisar."""
+    np.random.seed(99)  # Garantir pedidos reprodutíveis
     regioes = ["Centro", "Norte", "Sul", "Leste", "Oeste"]
 
     # Dataset base (15 pedidos)
@@ -174,8 +175,6 @@ def definir_cenarios():
 
     custo_base  = {"Centro": 1.20, "Norte": 1.50, "Sul": 1.40, "Leste": 1.30, "Oeste": 1.35}
     custo_alto  = {k: round(v * 1.20, 3) for k, v in custo_base.items()}
-
-    np.random.seed(99)  # Garantir pedidos reprodutíveis
 
     cenarios = [
         {

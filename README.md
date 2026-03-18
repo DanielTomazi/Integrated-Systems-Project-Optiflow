@@ -13,7 +13,7 @@
 | **Aluno**          | Daniel Tomazi de Oliveira                               |
 | **RA**             | A preencher                                             |
 | **Curso**          | Gestão de Sistemas Computacionais                       |
-| **Período**        | 2026 — 1º Semestre                                      |
+| **Período**        | 2026 — Semestre Letivo                                  |
 | **Empresa**        | OptiFlow Logística Inteligente                          |
 | **Disciplinas**    | Gestão de Projetos · Análise de Dados · Segurança da Informação · Pesquisa Operacional |
 
@@ -124,7 +124,8 @@ OptiFlow-Projeto-Integrador/
 │       └── analise_cenarios.py
 │
 ├── 05_documento_final/
-│   ├── modelo_relatorio_final.md
+│   ├── modelo_relatorio_final.md       ← template/estrutura do relatório
+│   ├── relatorio_final_PENDENTE_PDF.md ← ⚠️ substituir pelo PDF final
 │   └── referencias.md
 │
 └── 06_video_apresentacao/

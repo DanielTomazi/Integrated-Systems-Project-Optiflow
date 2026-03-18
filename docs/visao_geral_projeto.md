@@ -8,7 +8,7 @@
 | Aluno          | Daniel Tomazi de Oliveira                        |
 | RA             | A preencher                                      |
 | Curso          | Gestão de Sistemas Computacionais                |
-| Período        | 2026 — 1º Semestre                               |
+| Período        | 2026 — Semestre Letivo                           |
 | Orientador     | A preencher                                      |
 | Data de Início | 2026                                             |
 

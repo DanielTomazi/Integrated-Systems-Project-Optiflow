@@ -16,7 +16,7 @@
 | **Gerente do Projeto** | Daniel Tomazi de Oliveira                              |
 | **RA**                 | A preencher                                            |
 | **Data de Início**     | 2026                                                   |
-| **Data de Término**    | Semestre 2026/1                                        |
+| **Data de Término**    | Ao final do semestre letivo                            |
 | **Categoria**          | Projeto Acadêmico — Projeto Integrador                 |
 
 ---
