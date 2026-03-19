@@ -213,7 +213,7 @@ python analise_cenarios.py
 |---------|-----|
 | Site institucional | [opti-flow-site.vercel.app](https://opti-flow-site.vercel.app/) |
 | Repositório do site (Angular) | [github.com/DanielTomazi/OptiFlow-Site](https://github.com/DanielTomazi/OptiFlow-Site) |
-| Repositório do projeto integrador | [github.com/DanielTomazi](https://github.com/DanielTomazi) |
+| Repositório do projeto integrado | [github.com/DanielTomazi](https://github.com/DanielTomazi/Integrated-Systems-Project-Optiflow) |
 
 ---
 
