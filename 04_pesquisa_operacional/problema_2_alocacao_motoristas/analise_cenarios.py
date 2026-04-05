@@ -308,8 +308,10 @@ def main():
 
     imprimir_comparativo(resultados)
 
-    # Salvar CSV
-    pasta = os.path.dirname(__file__)
+    try:
+        pasta = os.path.dirname(os.path.abspath(__file__))
+    except NameError:
+        pasta = os.getcwd()
     df = pd.DataFrame([
         {k: v for k, v in r.items() if k != "demanda_por_regiao"}
         for r in resultados

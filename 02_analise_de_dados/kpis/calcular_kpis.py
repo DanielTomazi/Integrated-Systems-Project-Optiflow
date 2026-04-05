@@ -32,10 +32,13 @@ import numpy as np
 # CONFIGURAÇÕES
 # ─────────────────────────────────────────────
 
-SCRIPT_DIR  = os.path.dirname(os.path.abspath(__file__))
-# Tenta carregar dados limpos; usa brutos se o limpo não existir
-CLEAN_PATH  = os.path.join(SCRIPT_DIR, "..", "data", "dataset_logistica_limpo.csv")
-RAW_PATH    = os.path.join(SCRIPT_DIR, "..", "data", "dataset_logistica.csv")
+try:
+    _BASE      = os.path.dirname(os.path.abspath(__file__))
+    CLEAN_PATH = os.path.join(_BASE, "..", "data", "dataset_logistica_limpo.csv")
+    RAW_PATH   = os.path.join(_BASE, "..", "data", "dataset_logistica.csv")
+except NameError:
+    CLEAN_PATH = os.path.join(os.getcwd(), "data", "dataset_logistica_limpo.csv")
+    RAW_PATH   = os.path.join(os.getcwd(), "data", "dataset_logistica.csv")
 
 PRAZO_MAX_MINUTOS = 180  # Entrega "no prazo" se tempo_entrega <= 180 min
 

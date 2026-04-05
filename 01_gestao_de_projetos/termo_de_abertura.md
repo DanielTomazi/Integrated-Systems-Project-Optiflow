@@ -84,7 +84,7 @@ Desenvolver a concepção técnica e acadêmica da plataforma OptiFlow, integran
 | Papel                        | Responsável              | Dedicação       |
 |------------------------------|--------------------------|-----------------|
 | Gerente / Analista / Dev     | Daniel Tomazi de Oliveira| 100% (solo)     |
-| Orientador Acadêmico         | A preencher              | Reuniões mensais|
+| Orientador Acadêmico         | Prof. Felipe Santos de Jesus | Reuniões mensais|
 
 ### 6.2 Recursos Materiais e Tecnológicos
 | Recurso             | Detalhes                                    | Custo          |
@@ -133,7 +133,7 @@ Desenvolver a concepção técnica e acadêmica da plataforma OptiFlow, integran
 | Papel                        | Nome                       | Data        | Assinatura    |
 |------------------------------|----------------------------|-------------|---------------|
 | Gerente do Projeto           | Daniel Tomazi de Oliveira  | ___/___/____| _____________ |
-| Orientador                   | A preencher                | ___/___/____| _____________ |
+| Orientador                   | Prof. Felipe Santos de Jesus | ___/___/____| _____________ |
 | Coordenador do Curso         | A preencher                | ___/___/____| _____________ |
 
 ---

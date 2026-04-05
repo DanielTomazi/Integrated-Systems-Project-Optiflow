@@ -22,9 +22,13 @@ import pandas as pd
 # CONFIGURAÇÕES DE CAMINHOS
 # ─────────────────────────────────────────────
 
-SCRIPT_DIR   = os.path.dirname(os.path.abspath(__file__))
-RAW_PATH     = os.path.join(SCRIPT_DIR, "..", "data", "dataset_logistica.csv")
-CLEAN_PATH   = os.path.join(SCRIPT_DIR, "..", "data", "dataset_logistica_limpo.csv")
+try:
+    _BASE      = os.path.dirname(os.path.abspath(__file__))
+    RAW_PATH   = os.path.join(_BASE, "..", "data", "dataset_logistica.csv")
+    CLEAN_PATH = os.path.join(_BASE, "..", "data", "dataset_logistica_limpo.csv")
+except NameError:
+    RAW_PATH   = os.path.join(os.getcwd(), "data", "dataset_logistica.csv")
+    CLEAN_PATH = os.path.join(os.getcwd(), "data", "dataset_logistica_limpo.csv")
 
 
 # ─────────────────────────────────────────────

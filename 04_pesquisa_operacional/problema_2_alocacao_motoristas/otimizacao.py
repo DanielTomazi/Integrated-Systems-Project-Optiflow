@@ -206,7 +206,10 @@ def exibir_relatorio(prob, x):
 def salvar_resultado(x, caminho_saida: str = None):
     """Salva o resultado da alocação em CSV."""
     if caminho_saida is None:
-        base = os.path.dirname(__file__)
+        try:
+            base = os.path.dirname(os.path.abspath(__file__))
+        except NameError:
+            base = os.getcwd()
         caminho_saida = os.path.join(base, "resultado_alocacao.csv")
 
     linhas = []

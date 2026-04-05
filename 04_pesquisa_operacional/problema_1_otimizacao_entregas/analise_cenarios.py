@@ -26,8 +26,10 @@ matplotlib.use("Agg")
 import os
 import sys
 
-# Adicionar o diretório pai ao path para importar o módulo de otimização
-sys.path.insert(0, os.path.dirname(__file__))
+try:
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+except NameError:
+    pass
 
 # ─────────────────────────────────────────────────────────────────────────────
 # FUNÇÃO BASE: resolver o modelo com parâmetros customizáveis
@@ -303,7 +305,10 @@ def main():
 
     # Salvar resultados
     df = pd.DataFrame(resultados)
-    pasta = os.path.dirname(__file__)
+    try:
+        pasta = os.path.dirname(os.path.abspath(__file__))
+    except NameError:
+        pasta = os.getcwd()
     caminho_csv = os.path.join(pasta, "resultado_cenarios.csv")
     df.to_csv(caminho_csv, index=False, encoding="utf-8-sig")
     print(f"\n  ✅ Resultados salvos em: {caminho_csv}")

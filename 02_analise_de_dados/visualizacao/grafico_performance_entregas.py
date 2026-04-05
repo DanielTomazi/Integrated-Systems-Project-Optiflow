@@ -54,10 +54,15 @@ plt.rcParams.update({
     "figure.dpi":    120,
 })
 
-SCRIPT_DIR  = os.path.dirname(os.path.abspath(__file__))
-CLEAN_PATH  = os.path.join(SCRIPT_DIR, "..", "data", "dataset_logistica_limpo.csv")
-RAW_PATH    = os.path.join(SCRIPT_DIR, "..", "data", "dataset_logistica.csv")
-OUTPUT_DIR  = os.path.join(SCRIPT_DIR, "..", "data")
+try:
+    _BASE      = os.path.dirname(os.path.abspath(__file__))
+    CLEAN_PATH = os.path.join(_BASE, "..", "data", "dataset_logistica_limpo.csv")
+    RAW_PATH   = os.path.join(_BASE, "..", "data", "dataset_logistica.csv")
+    OUTPUT_DIR = os.path.join(_BASE, "..", "data")
+except NameError:
+    CLEAN_PATH = os.path.join(os.getcwd(), "data", "dataset_logistica_limpo.csv")
+    RAW_PATH   = os.path.join(os.getcwd(), "data", "dataset_logistica.csv")
+    OUTPUT_DIR = os.path.join(os.getcwd(), "data")
 
 
 # ─────────────────────────────────────────────

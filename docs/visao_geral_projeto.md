@@ -7,9 +7,9 @@
 | Nome do Projeto| OptiFlow Logística Inteligente                   |
 | Aluno          | Daniel Tomazi de Oliveira                        |
 | RA             | A preencher                                      |
-| Curso          | Gestão de Sistemas Computacionais                |
+| Curso          | Ciência da Computação                               |
 | Período        | 2026 — Semestre Letivo                           |
-| Orientador     | A preencher                                      |
+| Orientador     | Prof. Felipe Santos de Jesus                     |
 | Data de Início | 2026                                             |
 
 ---

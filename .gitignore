@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dados sensíveis / outputs gerados (não versionar CSV limpo separadamente)
+02_analise_de_dados/data/dataset_logistica_limpo.csv
+04_pesquisa_operacional/**/resultado_*.csv

@@ -25,9 +25,12 @@ from datetime import datetime, timedelta
 SEED = 42          # Semente para reprodutibilidade
 NUM_PEDIDOS = 200  # Quantidade de registros a gerar
 
-# Caminho de saída relativo ao script
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-OUTPUT_PATH = os.path.join(SCRIPT_DIR, "..", "data", "dataset_logistica.csv")
+# Caminho de saída — compatível com execução local e Google Colab
+try:
+    _BASE = os.path.dirname(os.path.abspath(__file__))
+    OUTPUT_PATH = os.path.join(_BASE, "..", "data", "dataset_logistica.csv")
+except NameError:
+    OUTPUT_PATH = os.path.join(os.getcwd(), "data", "dataset_logistica.csv")
 
 
 # ─────────────────────────────────────────────

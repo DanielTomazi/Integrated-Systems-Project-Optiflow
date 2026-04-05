@@ -53,7 +53,7 @@ Horário:     ___ às ___
 Local:       _______________________
 Participantes:
   - Daniel Tomazi de Oliveira
-  - [Nome do Orientador]
+  - Prof. Felipe Santos de Jesus
 
 PAUTA:
 1. Status das entregas desde a última reunião
@@ -89,7 +89,7 @@ Orientador:    _______________
 ```
 Assunto: [OptiFlow] Entrega de Marco — [Nome do Marco] — [Data]
 
-Prezado(a) Professor(a) [Nome],
+Prezado(a) Prof. Felipe Santos de Jesus,
 
 Informo a conclusão das entregas do Marco [Número] do Projeto Integrador OptiFlow.
 

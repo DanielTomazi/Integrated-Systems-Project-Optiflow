@@ -1,4 +1,4 @@
-# OptiFlow — Projeto Integrador em Gestão de Sistemas Computacionais
+# OptiFlow — Projeto Integrador em Ciência da Computação
 
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
@@ -15,7 +15,7 @@
 |--------------------|--------------------------------------------------------|
 | **Aluno**          | Daniel Tomazi de Oliveira                               |
 | **RA**             | A preencher                                             |
-| **Curso**          | Gestão de Sistemas Computacionais                       |
+| **Curso**          | Ciência da Computação                                   |
 | **Período**        | 2026 — Semestre Letivo                                  |
 | **Empresa**        | OptiFlow Logística Inteligente                          |
 | **Disciplinas**    | Gestão de Projetos · Análise de Dados · Segurança da Informação · Pesquisa Operacional |
@@ -127,8 +127,9 @@ OptiFlow-Projeto-Integrador/
 │       └── analise_cenarios.py
 │
 ├── 05_documento_final/
-│   ├── modelo_relatorio_final.md
-│   ├── relatorio_final_PENDENTE_PDF.md
+│   ├── Optiflow-Documentação-Final.md
+│   ├── Optiflow-Documentação-Final.pdf
+│   ├── optiflow-abnt.css
 │   └── referencias.md
 │
 └── 06_video_apresentacao/
@@ -172,6 +173,7 @@ python calcular_kpis.py
 cd ../visualizacao
 python grafico_receita.py
 python grafico_performance_entregas.py
+python grafico_heatmap_motoristas.py
 ```
 
 #### 5. Abrir o Notebook de Análise
