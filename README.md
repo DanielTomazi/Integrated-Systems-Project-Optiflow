@@ -15,8 +15,13 @@
 |--------------------|--------------------------------------------------------|
 | **Aluno**          | Daniel Tomazi de Oliveira                               |
 | **RA**             | A preencher                                             |
+<<<<<<< HEAD
 | **Curso**          | Ciência da Computação                                   |
 | **Período**        | 2026 — Semestre Letivo                                  |
+=======
+| **Curso**          | Gestão de Sistemas Computacionais                       |
+| **Período**        | 2026 - 8º semestre                                   |
+>>>>>>> c600cb8b214a9e8962addc6560789374db907e7c
 | **Empresa**        | OptiFlow Logística Inteligente                          |
 | **Disciplinas**    | Gestão de Projetos · Análise de Dados · Segurança da Informação · Pesquisa Operacional |
 
@@ -215,7 +220,7 @@ python analise_cenarios.py
 |---------|-----|
 | Site institucional | [opti-flow-site.vercel.app](https://opti-flow-site.vercel.app/) |
 | Repositório do site (Angular) | [github.com/DanielTomazi/OptiFlow-Site](https://github.com/DanielTomazi/OptiFlow-Site) |
-| Repositório do projeto integrador | [github.com/DanielTomazi](https://github.com/DanielTomazi) |
+| Repositório do projeto integrado | [github.com/DanielTomazi](https://github.com/DanielTomazi/Integrated-Systems-Project-Optiflow) |
 
 ---
 
