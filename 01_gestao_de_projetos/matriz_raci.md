@@ -48,7 +48,8 @@
 | 2.4 Script calcular_kpis.py                   | R/A          | C                | —                 | I           |
 | 2.5 Gráfico de faturamento                    | R/A          | I                | —                 | I           |
 | 2.6 Gráfico de performance de entregas        | R/A          | I                | —                 | I           |
-| 2.7 Notebook Jupyter (analise_dados.ipynb)    | R/A          | C                | —                 | I           |
+| 2.7 Heatmap de motoristas                     | R/A          | I                | —                 | I           |
+| 2.8 Notebook Jupyter (analise_dados.ipynb)    | R/A          | C                | —                 | I           |
 | **SEGURANÇA DA INFORMAÇÃO**                   |              |                  |                   |             |
 | 3.1 Mapeamento de ameaças                     | R/A          | C                | —                 | I           |
 | 3.2 Matriz GUT                                | R/A          | C                | —                 | I           |

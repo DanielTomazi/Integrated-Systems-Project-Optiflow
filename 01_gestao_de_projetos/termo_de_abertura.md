@@ -12,7 +12,7 @@
 | Campo                  | Informação                                             |
 |------------------------|--------------------------------------------------------|
 | **Nome do Projeto**    | OptiFlow Logística Inteligente — Projeto Integrador    |
-| **Patrocinador**       | Instituição de Ensino / Coordenação do Curso           |
+| **Patrocinador**       | Universidade Nove de Julho (UNINOVE)                   |
 | **Gerente do Projeto** | Daniel Tomazi de Oliveira                              |
 | **RA**                 | A preencher                                            |
 | **Data de Início**     | 2026                                                   |

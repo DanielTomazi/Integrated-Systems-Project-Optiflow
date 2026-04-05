@@ -1,6 +1,6 @@
 # OptiFlow — Projeto Integrador em Ciência da Computação
 
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
+![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![Licença](https://img.shields.io/badge/Licen%C3%A7a-MIT-green)
 
@@ -15,13 +15,8 @@
 |--------------------|--------------------------------------------------------|
 | **Aluno**          | Daniel Tomazi de Oliveira                               |
 | **RA**             | A preencher                                             |
-<<<<<<< HEAD
 | **Curso**          | Ciência da Computação                                   |
 | **Período**        | 2026 — Semestre Letivo                                  |
-=======
-| **Curso**          | Gestão de Sistemas Computacionais                       |
-| **Período**        | 2026 - 8º semestre                                   |
->>>>>>> c600cb8b214a9e8962addc6560789374db907e7c
 | **Empresa**        | OptiFlow Logística Inteligente                          |
 | **Disciplinas**    | Gestão de Projetos · Análise de Dados · Segurança da Informação · Pesquisa Operacional |
 

@@ -11,12 +11,12 @@
 
 | Fase      | Descrição                          | Semanas | Status        |
 |-----------|------------------------------------|---------|---------------|
-| Fase 1    | Iniciação do Projeto               | 1–2     | A iniciar     |
-| Fase 2    | Planejamento                       | 3–4     | A iniciar     |
-| Fase 3    | Análise de Dados                   | 5–9     | A iniciar     |
-| Fase 4    | Segurança da Informação            | 10–11   | A iniciar     |
-| Fase 5    | Pesquisa Operacional               | 12–14   | A iniciar     |
-| Fase 6    | Encerramento                       | 15–16   | A iniciar     |
+| Fase 1    | Iniciação do Projeto               | 1–2     | Concluída     |
+| Fase 2    | Planejamento                       | 3–4     | Concluída     |
+| Fase 3    | Análise de Dados                   | 5–9     | Concluída     |
+| Fase 4    | Segurança da Informação            | 10–11   | Concluída     |
+| Fase 5    | Pesquisa Operacional               | 12–14   | Concluída     |
+| Fase 6    | Encerramento                       | 15–16   | Concluída     |
 
 ---
 

@@ -50,9 +50,9 @@ A **Estrutura Analítica do Projeto (EAP)**, também conhecida como **WBS (Work 
 │   │   ├── 2.3.3 Custo médio por entrega
 │   │   └── 2.3.4 Script de KPIs (calcular_kpis.py)
 │   ├── 2.4 Visualizações
-│   │   ├── 2.4.1 Gráfico de faturamento ao longo do tempo
-│   │   ├── 2.4.2 Gráfico de performance de entregas
-│   │   └── 2.4.3 Análise por região
+│   │   ├── 2.4.1 Gráfico de faturamento ao longo do tempo (grafico_receita.py)
+│   │   ├── 2.4.2 Gráfico de performance de entregas (grafico_performance_entregas.py)
+│   │   └── 2.4.3 Heatmap de motoristas por região (grafico_heatmap_motoristas.py)
 │   └── 2.5 Notebook de Análise
 │       └── 2.5.1 Notebook Jupyter integrado (analise_dados.ipynb)
 │
