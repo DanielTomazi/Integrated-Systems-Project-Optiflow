@@ -14,9 +14,9 @@
 | Campo              | Informação                                              |
 |--------------------|--------------------------------------------------------|
 | **Aluno**          | Daniel Tomazi de Oliveira                               |
-| **RA**             | A preencher                                             |
+| **RA**             | Informação sensivel para ser exibida publicamente                                             |
 | **Curso**          | Ciência da Computação                                   |
-| **Período**        | 2026 — 8º semestre                                 |
+| **Período**        | 2026 - 8º semestre                                 |
 | **Empresa**        | OptiFlow Logística Inteligente                          |
 | **Disciplinas**    | Gestão de Projetos · Análise de Dados · Segurança da Informação · Pesquisa Operacional |
 
