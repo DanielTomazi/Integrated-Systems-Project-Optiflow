@@ -1,4 +1,4 @@
-# OptiFlow — Projeto Integrador em Ciência da Computação
+# OptiFlow - Projeto Integrador em Ciência da Computação
 
 ![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
