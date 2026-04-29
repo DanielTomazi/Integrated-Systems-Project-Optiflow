@@ -1,8 +1,8 @@
-"""
+﻿"""
 OptiFlow Logística Inteligente
 ==============================
 Script: limpeza_dados.py
-Módulo: ETL — Limpeza e Tratamento de Dados
+Módulo: ETL - Limpeza e Tratamento de Dados
 Descrição: Carrega o dataset logístico, realiza limpeza, validação e
            transformações e salva a versão limpa pronta para análise.
 
@@ -61,7 +61,7 @@ def carregar_dados(caminho: str) -> pd.DataFrame:
 
 def relatorio_qualidade(df: pd.DataFrame, etapa: str) -> None:
     """Imprime um relatório resumido da qualidade dos dados."""
-    print(f"\n[QUALIDADE — {etapa}]")
+    print(f"\n[QUALIDADE - {etapa}]")
     nulos = df.isnull().sum()
     nulos_filtrado = nulos[nulos > 0]
     if nulos_filtrado.empty:
@@ -199,7 +199,7 @@ def padronizar_tipos(df: pd.DataFrame) -> pd.DataFrame:
 def main():
     """Função principal do pipeline de limpeza."""
     print("=" * 55)
-    print("  OptiFlow — Limpeza e Tratamento de Dados")
+    print("  OptiFlow - Limpeza e Tratamento de Dados")
     print("=" * 55)
 
     # 1. Carregar dados brutos
@@ -232,7 +232,7 @@ def main():
     print(f"     Total de registros: {len(df)}")
 
     # Exibir amostra final
-    print("\n[AMOSTRA FINAL — 5 primeiros registros]")
+    print("\n[AMOSTRA FINAL - 5 primeiros registros]")
     print(df.head().to_string(index=False))
 
 

@@ -1,6 +1,6 @@
-"""
+﻿"""
 ==============================================================================
-OptiFlow — Análise de Cenários: Otimização de Rotas de Entrega
+OptiFlow - Análise de Cenários: Otimização de Rotas de Entrega
 Disciplina: Pesquisa Operacional
 ==============================================================================
 Objetivo: Comparar o impacto de diferentes parâmetros operacionais na
@@ -220,7 +220,7 @@ def definir_cenarios():
 def gerar_graficos(df_resultados: pd.DataFrame, pasta_saida: str):
     """Gera gráficos comparativos entre cenários."""
     fig, axes = plt.subplots(1, 2, figsize=(14, 6))
-    fig.suptitle("Análise de Cenários — Otimização de Rotas (OptiFlow)", fontweight="bold")
+    fig.suptitle("Análise de Cenários - Otimização de Rotas (OptiFlow)", fontweight="bold")
 
     df_ok = df_resultados[df_resultados["status"] == "Optimal"].copy()
     cores = ["#2196F3", "#4CAF50", "#FF9800", "#F44336", "#9C27B0"]
@@ -256,7 +256,7 @@ def gerar_graficos(df_resultados: pd.DataFrame, pasta_saida: str):
 def imprimir_tabela_comparativa(resultados: list):
     """Imprime tabela comparativa de todos os cenários."""
     print("\n" + "=" * 80)
-    print("  ANÁLISE COMPARATIVA DE CENÁRIOS — Otimização de Rotas")
+    print("  ANÁLISE COMPARATIVA DE CENÁRIOS - Otimização de Rotas")
     print("=" * 80)
     print(f"  {'Cenário':<35} {'Status':<10} {'Custo Total':>12} {'Rotas':>6} {'Pedidos':>8}")
     print("-" * 80)
@@ -287,7 +287,7 @@ def imprimir_tabela_comparativa(resultados: list):
 # ─────────────────────────────────────────────────────────────────────────────
 
 def main():
-    print("\n  OptiFlow — Análise de Cenários: Otimização de Rotas")
+    print("\n  OptiFlow - Análise de Cenários: Otimização de Rotas")
     print("  " + "─" * 55)
 
     cenarios = definir_cenarios()

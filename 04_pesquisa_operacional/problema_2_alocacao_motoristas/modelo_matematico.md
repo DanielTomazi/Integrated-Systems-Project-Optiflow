@@ -1,8 +1,8 @@
-# Modelo Matemático — Problema 2: Alocação de Motoristas por Região
+﻿# Modelo Matemático - Problema 2: Alocação de Motoristas por Região
 
 **Disciplina:** Pesquisa Operacional  
-**Projeto:** OptiFlow — Plataforma de Otimização Logística  
-**Tipo de Problema:** Programação Linear Inteira (PLI) — Problema de Designação Generalizado
+**Projeto:** OptiFlow - Plataforma de Otimização Logística  
+**Tipo de Problema:** Programação Linear Inteira (PLI) - Problema de Designação Generalizado
 
 ---
 
@@ -58,24 +58,24 @@ Onde $e_{mr} \cdot h_m$ representa o total de pedidos que o motorista $m$ conseg
 
 ## 6. Restrições
 
-### R1 — Disponibilidade de horas do motorista:
+### R1 - Disponibilidade de horas do motorista:
 $$\sum_{r \in R} t_{mr} \cdot x_{mr} \leq h_m, \quad \forall m \in M$$
 
-### R2 — Demanda mínima atendida por região:
+### R2 - Demanda mínima atendida por região:
 $$\sum_{m \in M} e_{mr} \cdot h_m \cdot x_{mr} \geq D_r, \quad \forall r \in R$$
 
-### R3 — Número máximo de motoristas por região:
+### R3 - Número máximo de motoristas por região:
 $$\sum_{m \in M} x_{mr} \leq K_r, \quad \forall r \in R$$
 
-### R4 — Restrição de experiência mínima por região:
+### R4 - Restrição de experiência mínima por região:
 $$x_{mr} \leq \mathbb{1}[\hat{E}_m \geq E_{\min,r}], \quad \forall m \in M, \forall r \in R$$
 
 Onde $\mathbb{1}[\cdot]$ é a função indicadora (1 se verdadeiro, 0 se falso).
 
-### R5 — Número máximo de regiões por motorista:
+### R5 - Número máximo de regiões por motorista:
 $$\sum_{r \in R} x_{mr} \leq L_{\max}, \quad \forall m \in M$$
 
-### R6 — Domínio das variáveis (integralidade):
+### R6 - Domínio das variáveis (integralidade):
 $$x_{mr} \in \{0, 1\}, \quad \forall m \in M, \forall r \in R$$
 
 ---
@@ -123,7 +123,7 @@ $$e_{mr} = \frac{\text{Pedidos entregues pelo motorista } m \text{ na região } 
 | M005      | Sul      | 4h             | 3,2                | 13                |
 | M007      | Leste    | 5h             | 3,0                | 15                |
 | M009      | Oeste    | 4h             | 2,9                | 12                |
-| **Total** |          | **22h**        | **—**              | **68**            |
+| **Total** |          | **22h**        | **-**              | **68**            |
 
 ---
 
@@ -140,4 +140,4 @@ $$e_{mr} = \frac{\text{Pedidos entregues pelo motorista } m \text{ na região } 
 
 ---
 
-*Referências: Arenales et al. (2011) — Pesquisa Operacional | Goldbarg & Luna (2005) — Otimização Combinatória e Programação Linear*
+*Referências: Arenales et al. (2011) - Pesquisa Operacional | Goldbarg & Luna (2005) - Otimização Combinatória e Programação Linear*

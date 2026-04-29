@@ -1,6 +1,6 @@
-# Plano de Comunicação — Projeto OptiFlow
+﻿# Plano de Comunicação - Projeto OptiFlow
 
-**Projeto:** OptiFlow — Plataforma de Otimização Logística  
+**Projeto:** OptiFlow - Plataforma de Otimização Logística  
 **Versão:** 1.0  
 **Data:** 2026
 
@@ -27,7 +27,7 @@ Estabelecer a estratégia de comunicação do projeto, definindo o que, quando, 
 
 | ID  | O Que Comunicar                          | Para Quem              | Por Quem          | Quando              | Como                    | Formato               |
 |-----|------------------------------------------|------------------------|-------------------|---------------------|-------------------------|-----------------------|
-| C01 | Kickoff — início do projeto              | Orientador, Coord.     | Daniel Tomazi     | Semana 1            | E-mail + reunião         | E-mail formal         |
+| C01 | Kickoff - início do projeto              | Orientador, Coord.     | Daniel Tomazi     | Semana 1            | E-mail + reunião         | E-mail formal         |
 | C02 | Entrega dos artefatos de gestão          | Orientador             | Daniel Tomazi     | Fim Semana 4        | E-mail + link GitHub     | Markdown no GitHub    |
 | C03 | Reunião quinzenal de acompanhamento      | Orientador             | Daniel Tomazi     | Semanas pares       | Videoconferência/presen. | Ata de reunião        |
 | C04 | Entrega da Análise de Dados              | Orientador             | Daniel Tomazi     | Fim Semana 9        | E-mail + link GitHub     | Scripts + Notebook    |
@@ -46,7 +46,7 @@ Estabelecer a estratégia de comunicação do projeto, definindo o que, quando, 
 
 ```
 ────────────────────────────────────────────────
-ATA DE REUNIÃO — PROJETO INTEGRADOR OPTIFLOW
+ATA DE REUNIÃO - PROJETO INTEGRADOR OPTIFLOW
 ────────────────────────────────────────────────
 Data:        ___/___/2026
 Horário:     ___ às ___
@@ -87,7 +87,7 @@ Orientador:    _______________
 ### 4.2 E-mail de Entrega de Marco
 
 ```
-Assunto: [OptiFlow] Entrega de Marco — [Nome do Marco] — [Data]
+Assunto: [OptiFlow] Entrega de Marco - [Nome do Marco] - [Data]
 
 Prezado(a) Prof. Felipe Santos de Jesus,
 
@@ -153,9 +153,9 @@ O repositório GitHub serve como o **canal central de comunicação técnica** d
 |------|--------------|--------------|--------------------------------------|------------|
 |      | E-mail       | Orientador   | Kickoff do Projeto                   | A enviar   |
 |      | Reunião      | Orientador   | Acompanhamento Quinzenal 1           | A realizar |
-|      | E-mail       | Orientador   | Entrega Marco 2 — Planejamento       | A enviar   |
+|      | E-mail       | Orientador   | Entrega Marco 2 - Planejamento       | A enviar   |
 |      | Reunião      | Orientador   | Acompanhamento Quinzenal 2           | A realizar |
-|      | E-mail       | Orientador   | Entrega Marco 3 — Análise de Dados   | A enviar   |
-|      | E-mail       | Orientador   | Entrega Marco 4 — Segurança          | A enviar   |
-|      | E-mail       | Orientador   | Entrega Marco 5 — Pesquisa Operac.   | A enviar   |
+|      | E-mail       | Orientador   | Entrega Marco 3 - Análise de Dados   | A enviar   |
+|      | E-mail       | Orientador   | Entrega Marco 4 - Segurança          | A enviar   |
+|      | E-mail       | Orientador   | Entrega Marco 5 - Pesquisa Operac.   | A enviar   |
 |      | E-mail       | Coord. Curso | Entrega Final Completa               | A enviar   |

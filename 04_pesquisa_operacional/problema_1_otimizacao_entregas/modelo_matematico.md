@@ -1,8 +1,8 @@
-# Modelo Matemático — Problema 1: Otimização de Rotas de Entrega
+﻿# Modelo Matemático - Problema 1: Otimização de Rotas de Entrega
 
 **Disciplina:** Pesquisa Operacional  
-**Projeto:** OptiFlow — Plataforma de Otimização Logística  
-**Tipo de Problema:** Programação Linear Inteira (PLI) — Variante do VRP (Vehicle Routing Problem)
+**Projeto:** OptiFlow - Plataforma de Otimização Logística  
+**Tipo de Problema:** Programação Linear Inteira (PLI) - Variante do VRP (Vehicle Routing Problem)
 
 ---
 
@@ -63,25 +63,25 @@ Onde:
 
 ## 6. Restrições
 
-### R1 — Cada pedido deve ser atribuído a exatamente uma rota:
+### R1 - Cada pedido deve ser atribuído a exatamente uma rota:
 $$\sum_{j \in J} x_{ij} = 1, \quad \forall i \in I$$
 
-### R2 — Capacidade de peso máxima por rota:
+### R2 - Capacidade de peso máxima por rota:
 $$\sum_{i \in I} p_i \cdot x_{ij} \leq P_{\max}, \quad \forall j \in J$$
 
-### R3 — Distância máxima por rota:
+### R3 - Distância máxima por rota:
 $$\sum_{i \in I} d_{ij} \cdot x_{ij} \leq D_{\max}, \quad \forall j \in J$$
 
-### R4 — Número máximo de paradas por rota:
+### R4 - Número máximo de paradas por rota:
 $$\sum_{i \in I} x_{ij} \leq N_{\max}, \quad \forall j \in J$$
 
-### R5 — Ativar rota apenas se ao menos um pedido for atribuído:
+### R5 - Ativar rota apenas se ao menos um pedido for atribuído:
 $$x_{ij} \leq y_j, \quad \forall i \in I, \forall j \in J$$
 
-### R6 — Somente rotas disponíveis podem ser ativadas:
+### R6 - Somente rotas disponíveis podem ser ativadas:
 $$y_j \leq A_j, \quad \forall j \in J$$
 
-### R7 — Domínio das variáveis (integralidade):
+### R7 - Domínio das variáveis (integralidade):
 $$x_{ij} \in \{0, 1\}, \quad \forall i \in I, \forall j \in J$$
 $$y_j \in \{0, 1\}, \quad \forall j \in J$$
 
@@ -139,4 +139,4 @@ A solução ótima $x^*_{ij}$ indica:
 
 ---
 
-*Referências: Hillier & Lieberman (2013) — Introdução à Pesquisa Operacional | Taha (2016) — Operations Research: An Introduction*
+*Referências: Hillier & Lieberman (2013) - Introdução à Pesquisa Operacional | Taha (2016) - Operations Research: An Introduction*

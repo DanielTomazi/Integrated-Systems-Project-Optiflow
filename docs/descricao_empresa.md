@@ -1,4 +1,4 @@
-# Descrição da Empresa — OptiFlow Logística Inteligente
+﻿# Descrição da Empresa - OptiFlow Logística Inteligente
 
 ## 1. Apresentação
 
@@ -33,25 +33,25 @@
 | **Mercado-alvo**    | PMEs de e-commerce com operação própria de entregas   |
 | **Modelo de negócio**| Assinatura mensal (SaaS)                             |
 | **Cobertura inicial**| Mercado brasileiro (expansão para LATAM planejada)   |
-| **Tamanho do mercado**| R$ 8,5 bilhões (logística de última milha no Brasil — 2025) |
+| **Tamanho do mercado**| R$ 8,5 bilhões (logística de última milha no Brasil - 2025) |
 
 ---
 
-## 4. Produto — Plataforma OptiFlow
+## 4. Produto - Plataforma OptiFlow
 
 A plataforma é composta por quatro módulos principais:
 
-### Módulo 1 — Roteirizador Inteligente
+### Módulo 1 - Roteirizador Inteligente
 - Otimização automática de rotas de entrega usando algoritmos de Pesquisa Operacional
 - Integração com mapas (Google Maps API / OpenStreetMap)
 - Janelas de tempo e restrições de capacidade
 
-### Módulo 2 — Gestão de Motoristas
+### Módulo 2 - Gestão de Motoristas
 - Alocação eficiente de motoristas por região e disponibilidade
 - Controle de jornada de trabalho (conformidade CLT)
 - Painel de produtividade individual
 
-### Módulo 3 — Analytics & KPIs
+### Módulo 3 - Analytics & KPIs
 - Dashboard em tempo real com indicadores-chave:
   - Custo médio por entrega
   - Tempo médio de entrega
@@ -59,7 +59,7 @@ A plataforma é composta por quatro módulos principais:
   - Faturamento por região
 - Relatórios automáticos mensais
 
-### Módulo 4 — Segurança & Conformidade
+### Módulo 4 - Segurança & Conformidade
 - Autenticação segura (JWT + 2FA)
 - Controle de acesso por papel (RBAC)
 - Adequação à LGPD

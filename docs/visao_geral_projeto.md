@@ -1,4 +1,4 @@
-# Visão Geral do Projeto — OptiFlow
+﻿# Visão Geral do Projeto - OptiFlow
 
 ## 1. Identificação
 
@@ -8,7 +8,7 @@
 | Aluno          | Daniel Tomazi de Oliveira                        |
 | RA             | A preencher                                      |
 | Curso          | Ciência da Computação                               |
-| Período        | 2026 — Semestre Letivo                           |
+| Período        | 2026 - Semestre Letivo                           |
 | Orientador     | Prof. Felipe Santos de Jesus                     |
 | Data de Início | 2026                                             |
 
@@ -42,7 +42,7 @@ Desenvolver a concepção, planejamento, análise e modelagem de uma plataforma 
 - Infraestrutura de cloud em produção
 - Testes de carga e penetração em ambiente real
 
-### 3.3 Entregável Adicional — Site Institucional
+### 3.3 Entregável Adicional - Site Institucional
 
 Como entregável complementar ao projeto integrador, foi desenvolvido o **site institucional da OptiFlow** em Angular, disponível em:
 
@@ -55,7 +55,7 @@ Como entregável complementar ao projeto integrador, foi desenvolvido o **site i
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                 OPTIFLOW — INTEGRAÇÃO DE DISCIPLINAS         │
+│                 OPTIFLOW - INTEGRAÇÃO DE DISCIPLINAS         │
 ├──────────────┬──────────────┬─────────────────┬─────────────┤
 │ GESTÃO DE    │ ANÁLISE DE   │   SEGURANÇA DA  │  PESQUISA   │
 │ PROJETOS     │ DADOS        │   INFORMAÇÃO    │ OPERACIONAL │
@@ -87,12 +87,12 @@ O projeto adota uma abordagem **híbrida** combinando:
 
 | Fase            | Período       | Descrição                                      |
 |-----------------|---------------|------------------------------------------------|
-| Fase 1 — Início | Semana 1–2    | Definição do escopo, TAP, EAP, equipe          |
-| Fase 2 — Plan.  | Semana 3–5    | Cronograma, riscos, comunicação, backlog       |
-| Fase 3 — Dados  | Semana 6–9    | ETL, KPIs, visualizações, notebook             |
-| Fase 4 — Seg.   | Semana 10–11  | Ameaças, GUT, autenticação, LGPD               |
-| Fase 5 — PO     | Semana 12–14  | Modelos de otimização, cenários                |
-| Fase 6 — Fecho  | Semana 15–16  | Relatório final, vídeo, entrega                |
+| Fase 1 - Início | Semana 1–2    | Definição do escopo, TAP, EAP, equipe          |
+| Fase 2 - Plan.  | Semana 3–5    | Cronograma, riscos, comunicação, backlog       |
+| Fase 3 - Dados  | Semana 6–9    | ETL, KPIs, visualizações, notebook             |
+| Fase 4 - Seg.   | Semana 10–11  | Ameaças, GUT, autenticação, LGPD               |
+| Fase 5 - PO     | Semana 12–14  | Modelos de otimização, cenários                |
+| Fase 6 - Fecho  | Semana 15–16  | Relatório final, vídeo, entrega                |
 
 ---
 
@@ -103,7 +103,7 @@ O projeto adota uma abordagem **híbrida** combinando:
 3. **Documentação de segurança** com matriz GUT e diretrizes LGPD
 4. **Relatório final** integrador com todos os entregáveis
 5. **Vídeo de apresentação** de até 10 minutos
-6. **Site institucional** em Angular — [opti-flow-site.vercel.app](https://opti-flow-site.vercel.app/)
+6. **Site institucional** em Angular - [opti-flow-site.vercel.app](https://opti-flow-site.vercel.app/)
 
 ---
 

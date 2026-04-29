@@ -1,7 +1,7 @@
-# Mapeamento de Ameaças — OptiFlow Logística Inteligente
+﻿# Mapeamento de Ameaças - OptiFlow Logística Inteligente
 
 **Disciplina:** Segurança da Informação  
-**Projeto:** OptiFlow — Plataforma de Otimização Logística  
+**Projeto:** OptiFlow - Plataforma de Otimização Logística  
 **Versão:** 1.0  
 **Data:** 2026  
 **Metodologia:** STRIDE (Microsoft Threat Modeling)
@@ -37,7 +37,7 @@ O mapeamento de ameaças é um processo sistemático para identificar, categoriz
 
 ---
 
-## 3. Diagrama de Fluxo de Dados (DFD — Simplificado)
+## 3. Diagrama de Fluxo de Dados (DFD - Simplificado)
 
 ```
 ┌──────────────┐   HTTPS    ┌──────────────────┐   SQL     ┌─────────────┐
@@ -63,7 +63,7 @@ O mapeamento de ameaças é um processo sistemático para identificar, categoriz
 
 ## 4. Catálogo de Ameaças STRIDE
 
-### 4.1 Spoofing — Falsificação de Identidade
+### 4.1 Spoofing - Falsificação de Identidade
 
 | ID     | Vetor de Ataque         | Descrição                                                                   | Impacto  |
 |--------|-------------------------|-----------------------------------------------------------------------------|----------|
@@ -72,7 +72,7 @@ O mapeamento de ameaças é um processo sistemático para identificar, categoriz
 | A-S-03 | Phishing                | E-mail falso fingindo ser da OptiFlow para capturar credenciais             | Médio    |
 | A-S-04 | API Key Spoofing        | Uso indevido de chaves de API vazadas para autenticar como serviço legítimo | Alto     |
 
-### 4.2 Tampering — Adulteração de Dados
+### 4.2 Tampering - Adulteração de Dados
 
 | ID     | Vetor de Ataque         | Descrição                                                                   | Impacto  |
 |--------|-------------------------|-----------------------------------------------------------------------------|----------|
@@ -81,14 +81,14 @@ O mapeamento de ameaças é um processo sistemático para identificar, categoriz
 | A-T-03 | Parameter Tampering     | Manipulação de parâmetros da requisição HTTP para alterar resultados        | Médio    |
 | A-T-04 | Dados de Rota Adulterados | Modificação maliciosa dos dados de otimização de rotas                    | Alto     |
 
-### 4.3 Repudiation — Repúdio
+### 4.3 Repudiation - Repúdio
 
 | ID     | Vetor de Ataque         | Descrição                                                                   | Impacto  |
 |--------|-------------------------|-----------------------------------------------------------------------------|----------|
 | A-R-01 | Logs Insuficientes      | Ausência de audit trail para rastrear ações críticas do sistema             | Médio    |
 | A-R-02 | Ausência de Assinatura  | Transações sem assinatura digital permitem negar autoria de operações       | Médio    |
 
-### 4.4 Information Disclosure — Exposição de Informações
+### 4.4 Information Disclosure - Exposição de Informações
 
 | ID     | Vetor de Ataque              | Descrição                                                              | Impacto  |
 |--------|------------------------------|------------------------------------------------------------------------|----------|
@@ -98,7 +98,7 @@ O mapeamento de ameaças é um processo sistemático para identificar, categoriz
 | A-I-04 | Dados Pessoais sem Criptografia | Armazenamento de dados pessoais em texto plano no banco de dados    | Alto     |
 | A-I-05 | Exposição de Variáveis de Env| Arquivo `.env` ou configurações expostos em repositório público        | Crítico  |
 
-### 4.5 Denial of Service — Negação de Serviço
+### 4.5 Denial of Service - Negação de Serviço
 
 | ID     | Vetor de Ataque              | Descrição                                                              | Impacto  |
 |--------|------------------------------|------------------------------------------------------------------------|----------|
@@ -107,7 +107,7 @@ O mapeamento de ameaças é um processo sistemático para identificar, categoriz
 | A-D-03 | Resource Exhaustion          | Requisições de otimização com parâmetros extremos sobrecarregam CPU    | Médio    |
 | A-D-04 | Database Connection Flooding | Abertura massiva de conexões ao banco de dados                         | Alto     |
 
-### 4.6 Elevation of Privilege — Escalada de Privilégios
+### 4.6 Elevation of Privilege - Escalada de Privilégios
 
 | ID     | Vetor de Ataque              | Descrição                                                              | Impacto  |
 |--------|------------------------------|------------------------------------------------------------------------|----------|

@@ -1,6 +1,6 @@
-# Cronograma / Gantt — Projeto OptiFlow
+﻿# Cronograma / Gantt - Projeto OptiFlow
 
-**Projeto:** OptiFlow — Plataforma de Otimização Logística  
+**Projeto:** OptiFlow - Plataforma de Otimização Logística  
 **Versão:** 1.0  
 **Data:** 2026  
 **Duração Total:** 16 semanas
@@ -27,12 +27,12 @@
 ```
 ATIVIDADE                               | S1 | S2 | S3 | S4 | S5 | S6 | S7 | S8 | S9 |S10 |S11 |S12 |S13 |S14 |S15 |S16 |
 ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-FASE 1 — INICIAÇÃO
+FASE 1 - INICIAÇÃO
 1.1 Definição do escopo e contexto     | ── | ── |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
 1.2 Elaboração do TAP                  | ── | ── |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
 1.3 Identificação de stakeholders      |    | ── |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
 ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-FASE 2 — PLANEJAMENTO
+FASE 2 - PLANEJAMENTO
 2.1 EAP / WBS                          |    |    | ── |    |    |    |    |    |    |    |    |    |    |    |    |    |
 2.2 Matriz RACI                        |    |    | ── |    |    |    |    |    |    |    |    |    |    |    |    |    |
 2.3 Cronograma Gantt                   |    |    | ── |    |    |    |    |    |    |    |    |    |    |    |    |    |
@@ -41,7 +41,7 @@ FASE 2 — PLANEJAMENTO
 2.6 Plano de Comunicação               |    |    |    | ── |    |    |    |    |    |    |    |    |    |    |    |    |
 2.7 Backlog Ágil                       |    |    |    | ── |    |    |    |    |    |    |    |    |    |    |    |    |
 ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-FASE 3 — ANÁLISE DE DADOS
+FASE 3 - ANÁLISE DE DADOS
 3.1 Definição do schema do dataset     |    |    |    |    | ── |    |    |    |    |    |    |    |    |    |    |    |
 3.2 Script gerar_dados.py              |    |    |    |    | ── | ── |    |    |    |    |    |    |    |    |    |    |
 3.3 Script limpeza_dados.py            |    |    |    |    |    | ── | ── |    |    |    |    |    |    |    |    |    |
@@ -50,21 +50,21 @@ FASE 3 — ANÁLISE DE DADOS
 3.6 Gráfico de performance             |    |    |    |    |    |    |    | ── |    |    |    |    |    |    |    |    |
 3.7 Notebook Jupyter                   |    |    |    |    |    |    |    |    | ── |    |    |    |    |    |    |    |
 ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-FASE 4 — SEGURANÇA DA INFORMAÇÃO
+FASE 4 - SEGURANÇA DA INFORMAÇÃO
 4.1 Mapeamento de ameaças              |    |    |    |    |    |    |    |    |    | ── |    |    |    |    |    |    |
 4.2 Matriz GUT                         |    |    |    |    |    |    |    |    |    | ── |    |    |    |    |    |    |
 4.3 Arquitetura de autenticação        |    |    |    |    |    |    |    |    |    |    | ── |    |    |    |    |    |
 4.4 Adequação à LGPD                   |    |    |    |    |    |    |    |    |    |    | ── |    |    |    |    |    |
 ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-FASE 5 — PESQUISA OPERACIONAL
-5.1 Modelo mat. — Rotas (doc)          |    |    |    |    |    |    |    |    |    |    |    | ── |    |    |    |    |
+FASE 5 - PESQUISA OPERACIONAL
+5.1 Modelo mat. - Rotas (doc)          |    |    |    |    |    |    |    |    |    |    |    | ── |    |    |    |    |
 5.2 Script otimizacao.py (rotas)       |    |    |    |    |    |    |    |    |    |    |    | ── | ── |    |    |    |
 5.3 Script analise_cenarios.py (rotas) |    |    |    |    |    |    |    |    |    |    |    |    | ── |    |    |    |
-5.4 Modelo mat. — Motoristas (doc)     |    |    |    |    |    |    |    |    |    |    |    |    | ── |    |    |    |
+5.4 Modelo mat. - Motoristas (doc)     |    |    |    |    |    |    |    |    |    |    |    |    | ── |    |    |    |
 5.5 Script otimizacao.py (motoristas)  |    |    |    |    |    |    |    |    |    |    |    |    | ── | ── |    |    |
 5.6 analise_cenarios.py (motoristas)   |    |    |    |    |    |    |    |    |    |    |    |    |    | ── |    |    |
 ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-FASE 6 — ENCERRAMENTO
+FASE 6 - ENCERRAMENTO
 6.1 Relatório Final Integrador         |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ── | ── |
 6.2 Revisão com Orientador             |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ── |
 6.3 Roteiro e Vídeo de Apresentação    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ── | ── |

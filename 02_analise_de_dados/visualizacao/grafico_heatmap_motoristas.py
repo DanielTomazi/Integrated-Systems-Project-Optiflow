@@ -1,8 +1,8 @@
-"""
+﻿"""
 OptiFlow Logística Inteligente
 ==============================
 Script: grafico_heatmap_motoristas.py
-Módulo: Visualização — Heatmap de Motoristas
+Módulo: Visualização - Heatmap de Motoristas
 Descrição: Gera heatmap de quantidade de pedidos por motorista e região,
            evidenciando sobrecarga e ociosidade na alocação da frota.
 
@@ -58,7 +58,7 @@ def carregar_dados() -> pd.DataFrame:
 
 
 # ─────────────────────────────────────────────
-# HEATMAP — PEDIDOS POR MOTORISTA E REGIÃO
+# HEATMAP - PEDIDOS POR MOTORISTA E REGIÃO
 # ─────────────────────────────────────────────
 
 def gerar_heatmap_motoristas(df: pd.DataFrame) -> None:
@@ -97,7 +97,7 @@ def gerar_heatmap_motoristas(df: pd.DataFrame) -> None:
         ax=ax,
     )
 
-    ax.set_title("Distribuição de Pedidos por Motorista e Região\nOptiFlow — Análise de Carga de Trabalho")
+    ax.set_title("Distribuição de Pedidos por Motorista e Região\nOptiFlow - Análise de Carga de Trabalho")
     ax.set_xlabel("Região de Entrega", fontsize=11)
     ax.set_ylabel("ID do Motorista", fontsize=11)
     ax.tick_params(axis="x", rotation=0)

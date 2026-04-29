@@ -1,4 +1,4 @@
-# OptiFlow - Projeto Integrador em Ciência da Computação
+﻿# OptiFlow - Projeto Integrador em Ciência da Computação
 
 ![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
@@ -54,7 +54,7 @@ A OptiFlow resolve esses problemas combinando análise de dados, algoritmos de o
 
 ```
 ┌────────────────────────────────────────────────────────────┐
-│                  OptiFlow — Visão Sistêmica                │
+│                  OptiFlow - Visão Sistêmica                │
 ├──────────────┬──────────────┬──────────────┬───────────────┤
 │  Gestão de   │  Análise de  │  Segurança   │   Pesquisa    │
 │  Projetos    │   Dados      │     Info.    │  Operacional  │
@@ -222,4 +222,4 @@ python analise_cenarios.py
 ## Licença
 
 Este projeto é desenvolvido para fins acadêmicos.  
-© 2026 Daniel Tomazi de Oliveira — OptiFlow Logística Inteligente.
+© 2026 Daniel Tomazi de Oliveira - OptiFlow Logística Inteligente.

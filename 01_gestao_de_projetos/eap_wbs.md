@@ -1,6 +1,6 @@
-# EAP / WBS — Estrutura Analítica do Projeto
+﻿# EAP / WBS - Estrutura Analítica do Projeto
 
-**Projeto:** OptiFlow — Plataforma de Otimização Logística  
+**Projeto:** OptiFlow - Plataforma de Otimização Logística  
 **Versão:** 1.0  
 **Data:** 2026
 
@@ -12,10 +12,10 @@ A **Estrutura Analítica do Projeto (EAP)**, também conhecida como **WBS (Work 
 
 ---
 
-## 2. EAP — Representação Hierárquica em Texto
+## 2. EAP - Representação Hierárquica em Texto
 
 ```
-0. OPTIFLOW — PROJETO INTEGRADOR
+0. OPTIFLOW - PROJETO INTEGRADOR
 │
 ├── 1. GESTÃO DO PROJETO
 │   ├── 1.1 Iniciação
@@ -40,7 +40,7 @@ A **Estrutura Analítica do Projeto (EAP)**, também conhecida como **WBS (Work 
 │   │   ├── 2.1.1 Definição do schema do dataset
 │   │   ├── 2.1.2 Script de geração de dados simulados (gerar_dados.py)
 │   │   └── 2.1.3 Dataset logístico (dataset_logistica.csv)
-│   ├── 2.2 ETL — Limpeza e Transformação
+│   ├── 2.2 ETL - Limpeza e Transformação
 │   │   ├── 2.2.1 Tratamento de valores ausentes
 │   │   ├── 2.2.2 Normalização de colunas
 │   │   └── 2.2.3 Script de limpeza (limpeza_dados.py)
@@ -76,11 +76,11 @@ A **Estrutura Analítica do Projeto (EAP)**, também conhecida como **WBS (Work 
 │       └── 3.4.4 Política de privacidade
 │
 ├── 4. PESQUISA OPERACIONAL
-│   ├── 4.1 Problema 1 — Otimização de Rotas
+│   ├── 4.1 Problema 1 - Otimização de Rotas
 │   │   ├── 4.1.1 Modelagem matemática (modelo_matematico.md)
 │   │   ├── 4.1.2 Implementação do modelo (otimizacao.py)
 │   │   └── 4.1.3 Análise de cenários (analise_cenarios.py)
-│   └── 4.2 Problema 2 — Alocação de Motoristas
+│   └── 4.2 Problema 2 - Alocação de Motoristas
 │       ├── 4.2.1 Modelagem matemática (modelo_matematico.md)
 │       ├── 4.2.2 Implementação do modelo (otimizacao.py)
 │       └── 4.2.3 Análise de cenários (analise_cenarios.py)

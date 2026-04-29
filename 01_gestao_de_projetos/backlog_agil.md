@@ -1,6 +1,6 @@
-# Backlog Ágil — Projeto OptiFlow
+﻿# Backlog Ágil - Projeto OptiFlow
 
-**Projeto:** OptiFlow — Plataforma de Otimização Logística  
+**Projeto:** OptiFlow - Plataforma de Otimização Logística  
 **Versão:** 1.0  
 **Data:** 2026  
 **Metodologia:** Scrum adaptado para projeto individual
@@ -13,7 +13,7 @@ O **Product Backlog** é a lista priorizada de todos os itens de trabalho (User 
 
 ---
 
-## 2. User Stories e Tarefas — Backlog Completo
+## 2. User Stories e Tarefas - Backlog Completo
 
 ### ÉPICO 1: Gestão de Projetos
 
@@ -75,7 +75,7 @@ O **Product Backlog** é a lista priorizada de todos os itens de trabalho (User 
 
 > Cada Sprint = 1,5 semanas (semestres acadêmicos são comprimidos)
 
-### Sprint 1 — Iniciação (Semanas 1–2)
+### Sprint 1 - Iniciação (Semanas 1–2)
 | ID    | Tarefa                        | Pontos | Status  |
 |-------|-------------------------------|--------|---------|
 | US-01 | Termo de Abertura (TAP)       | 3      | Concluído |
@@ -83,7 +83,7 @@ O **Product Backlog** é a lista priorizada de todos os itens de trabalho (User 
 | US-03 | Matriz RACI                   | 2      | Concluído |
 | **Total** |                           | **8**  |         |
 
-### Sprint 2 — Planejamento (Semanas 3–4)
+### Sprint 2 - Planejamento (Semanas 3–4)
 | ID    | Tarefa                        | Pontos | Status  |
 |-------|-------------------------------|--------|---------|
 | US-04 | Cronograma Gantt              | 3      | Concluído |
@@ -93,14 +93,14 @@ O **Product Backlog** é a lista priorizada de todos os itens de trabalho (User 
 | US-08 | Backlog Ágil                  | 2      | Concluído |
 | **Total** |                           | **12** |         |
 
-### Sprint 3 — Dados: Coleta e ETL (Semanas 5–6)
+### Sprint 3 - Dados: Coleta e ETL (Semanas 5–6)
 | ID    | Tarefa                        | Pontos | Status  |
 |-------|-------------------------------|--------|---------|
 | US-09 | Dataset logístico (CSV)       | 5      | Concluído |
 | US-10 | Script limpeza_dados.py       | 3      | Concluído |
 | **Total** |                           | **8**  |         |
 
-### Sprint 4 — Dados: KPIs e Visualizações (Semanas 7–8)
+### Sprint 4 - Dados: KPIs e Visualizações (Semanas 7–8)
 | ID    | Tarefa                        | Pontos | Status  |
 |-------|-------------------------------|--------|---------|
 | US-11 | KPI: Faturamento mensal       | 3      | Concluído |
@@ -109,43 +109,43 @@ O **Product Backlog** é a lista priorizada de todos os itens de trabalho (User 
 | US-14 | Gráfico performance regiões   | 3      | Concluído |
 | **Total** |                           | **12** |         |
 
-### Sprint 5 — Dados: Notebook (Semana 9)
+### Sprint 5 - Dados: Notebook (Semana 9)
 | ID    | Tarefa                        | Pontos | Status  |
 |-------|-------------------------------|--------|---------|
 | US-15 | Notebook Jupyter completo     | 5      | Concluído |
 | **Total** |                           | **5**  |         |
 
-### Sprint 6 — Segurança I (Semana 10)
+### Sprint 6 - Segurança I (Semana 10)
 | ID    | Tarefa                        | Pontos | Status  |
 |-------|-------------------------------|--------|---------|
 | US-16 | Mapeamento de ameaças         | 5      | Concluído |
 | US-17 | Matriz GUT                    | 3      | Concluído |
 | **Total** |                           | **8**  |         |
 
-### Sprint 7 — Segurança II (Semana 11)
+### Sprint 7 - Segurança II (Semana 11)
 | ID    | Tarefa                        | Pontos | Status  |
 |-------|-------------------------------|--------|---------|
 | US-18 | Arquitetura de autenticação   | 5      | Concluído |
 | US-19 | Adequação LGPD                | 5      | Concluído |
 | **Total** |                           | **10** |         |
 
-### Sprint 8 — PO: Rotas (Semanas 12–13)
+### Sprint 8 - PO: Rotas (Semanas 12–13)
 | ID    | Tarefa                        | Pontos | Status  |
 |-------|-------------------------------|--------|---------|
-| US-20 | Modelo matemático — Rotas     | 5      | Concluído |
+| US-20 | Modelo matemático - Rotas     | 5      | Concluído |
 | US-21 | otimizacao.py (rotas)         | 8      | Concluído |
 | US-22 | analise_cenarios.py (rotas)   | 5      | Concluído |
 | **Total** |                           | **18** |         |
 
-### Sprint 9 — PO: Motoristas (Semana 14)
+### Sprint 9 - PO: Motoristas (Semana 14)
 | ID    | Tarefa                        | Pontos | Status  |
 |-------|-------------------------------|--------|---------|
-| US-23 | Modelo matemático — Motoristas| 5      | Concluído |
+| US-23 | Modelo matemático - Motoristas| 5      | Concluído |
 | US-24 | otimizacao.py (motoristas)    | 8      | Concluído |
 | US-25 | analise_cenarios.py (motor.)  | 5      | Concluído |
 | **Total** |                           | **18** |         |
 
-### Sprint 10 — Encerramento (Semanas 15–16)
+### Sprint 10 - Encerramento (Semanas 15–16)
 | ID    | Tarefa                        | Pontos | Status  |
 |-------|-------------------------------|--------|---------|
 | US-26 | Relatório final integrador    | 13     | Concluído |
@@ -169,7 +169,7 @@ O **Product Backlog** é a lista priorizada de todos os itens de trabalho (User 
 
 ---
 
-## 5. Definição de Pronto (DoD — Definition of Done)
+## 5. Definição de Pronto (DoD - Definition of Done)
 
 Uma User Story é considerada **CONCLUÍDA** quando:
 

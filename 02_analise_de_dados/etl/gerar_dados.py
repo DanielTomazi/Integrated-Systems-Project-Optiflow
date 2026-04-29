@@ -1,8 +1,8 @@
-"""
+﻿"""
 OptiFlow Logística Inteligente
 ==============================
 Script: gerar_dados.py
-Módulo: ETL — Geração de Dados Simulados
+Módulo: ETL - Geração de Dados Simulados
 Descrição: Gera um dataset logístico sintético com 200 registros e salva em CSV.
 
 Uso:
@@ -25,7 +25,7 @@ from datetime import datetime, timedelta
 SEED = 42          # Semente para reprodutibilidade
 NUM_PEDIDOS = 200  # Quantidade de registros a gerar
 
-# Caminho de saída — compatível com execução local e Google Colab
+# Caminho de saída - compatível com execução local e Google Colab
 try:
     _BASE = os.path.dirname(os.path.abspath(__file__))
     OUTPUT_PATH = os.path.join(_BASE, "..", "data", "dataset_logistica.csv")
@@ -40,7 +40,7 @@ except NameError:
 REGIOES = ["Centro", "Norte", "Sul", "Leste", "Oeste"]
 MOTORISTAS = [f"M{str(i).zfill(3)}" for i in range(1, 16)]  # M001 a M015
 
-# Custo por km (R$/km) — varia por região
+# Custo por km (R$/km) - varia por região
 CUSTO_POR_KM = {
     "Centro": 1.20,
     "Norte":  1.45,
@@ -49,7 +49,7 @@ CUSTO_POR_KM = {
     "Oeste":  1.35,
 }
 
-# Velocidade média (km/h) — afeta o tempo de entrega
+# Velocidade média (km/h) - afeta o tempo de entrega
 VELOCIDADE_MEDIA_KMH = {
     "Centro": 25,
     "Norte":  20,
@@ -163,7 +163,7 @@ def gerar_dataset(num_pedidos: int, seed: int = SEED) -> pd.DataFrame:
 def main():
     """Função principal: gera o dataset e salva em CSV."""
     print("=" * 55)
-    print("  OptiFlow — Gerador de Dados Logísticos Simulados")
+    print("  OptiFlow - Gerador de Dados Logísticos Simulados")
     print("=" * 55)
 
     print(f"\n[INFO] Gerando {NUM_PEDIDOS} registros com seed={SEED}...")

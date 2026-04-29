@@ -1,8 +1,8 @@
-"""
+﻿"""
 ==============================================================================
-OptiFlow — Problema 2: Alocação Ótima de Motoristas por Região
+OptiFlow - Problema 2: Alocação Ótima de Motoristas por Região
 Disciplina: Pesquisa Operacional
-Método: Programação Linear Inteira (PLI) — PuLP + CBC Solver
+Método: Programação Linear Inteira (PLI) - PuLP + CBC Solver
 ==============================================================================
 Objetivo: Maximizar a eficiência operacional total alocando motoristas
           às regiões de entrega, respeitando restrições de disponibilidade,
@@ -159,7 +159,7 @@ def exibir_relatorio(prob, x):
     """Exibe o resultado da alocação de forma estruturada."""
     status = pulp.LpStatus[prob.status]
     print("=" * 65)
-    print("  OPTIFLOW — RESULTADO DA ALOCAÇÃO DE MOTORISTAS")
+    print("  OPTIFLOW - RESULTADO DA ALOCAÇÃO DE MOTORISTAS")
     print("=" * 65)
     print(f"\n  Status do solver: {status}")
 
@@ -186,7 +186,7 @@ def exibir_relatorio(prob, x):
             print(f"  Motoristas: {', '.join(mot_alocados)}")
             print(f"  Pedidos estimados: {ped_regiao:.1f}")
         else:
-            print(f"\n  Região: {r} — ⚠️  Nenhum motorista alocado!")
+            print(f"\n  Região: {r} - ⚠️  Nenhum motorista alocado!")
 
     print("\n" + "-" * 65)
     print("  UTILIZAÇÃO DE MOTORISTAS")

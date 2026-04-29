@@ -1,6 +1,6 @@
-# Plano de Riscos — Projeto OptiFlow
+﻿# Plano de Riscos - Projeto OptiFlow
 
-**Projeto:** OptiFlow — Plataforma de Otimização Logística  
+**Projeto:** OptiFlow - Plataforma de Otimização Logística  
 **Versão:** 1.0  
 **Data:** 2026
 
@@ -79,22 +79,22 @@ P1 (M.Baixa) ACEITÁVEL  | ACEITÁVEL  |   BAIXO    |  BAIXO    |   MÉDIO
 Nenhum risco nível crítico identificado.
 
 ### Riscos Altos (Atenção Imediata)
-- **R001** — Atraso por subestimativa de esforço
-- **R002** — Dificuldade com PuLP nos modelos de otimização
-- **R011** — Soluções incorretas nos modelos
+- **R001** - Atraso por subestimativa de esforço
+- **R002** - Dificuldade com PuLP nos modelos de otimização
+- **R011** - Soluções incorretas nos modelos
 
 ### Riscos Médios (Monitorar)
-- **R003** — Dataset insuficiente
-- **R004** — Scope Creep
-- **R006** — Perda de dados
-- **R007** — Qualidade do relatório
-- **R008** — Acúmulo de disciplinas
-- **R012** — Plágio não intencional
+- **R003** - Dataset insuficiente
+- **R004** - Scope Creep
+- **R006** - Perda de dados
+- **R007** - Qualidade do relatório
+- **R008** - Acúmulo de disciplinas
+- **R012** - Plágio não intencional
 
 ### Riscos Baixos (Acompanhar)
-- **R005** — Dependências incompatíveis
-- **R009** — Notebook com erros
-- **R010** — Orientador indisponível
+- **R005** - Dependências incompatíveis
+- **R009** - Notebook com erros
+- **R010** - Orientador indisponível
 
 ---
 

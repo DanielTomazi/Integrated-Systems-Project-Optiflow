@@ -1,8 +1,8 @@
-"""
+﻿"""
 ==============================================================================
-OptiFlow — Problema 1: Otimização de Rotas de Entrega
+OptiFlow - Problema 1: Otimização de Rotas de Entrega
 Disciplina: Pesquisa Operacional
-Método: Programação Linear Inteira (PLI) — PuLP + CBC Solver
+Método: Programação Linear Inteira (PLI) - PuLP + CBC Solver
 ==============================================================================
 Objetivo: Minimizar o custo total de entrega atribuindo pedidos às rotas
           disponíveis, respeitando restrições de capacidade e distância.
@@ -172,7 +172,7 @@ def exibir_relatorio(prob, x, y):
     """Exibe o resultado da otimização de forma estruturada."""
     status = pulp.LpStatus[prob.status]
     print("=" * 65)
-    print("  OPTIFLOW — RESULTADO DA OTIMIZAÇÃO DE ROTAS")
+    print("  OPTIFLOW - RESULTADO DA OTIMIZAÇÃO DE ROTAS")
     print("=" * 65)
     print(f"\n  Status do solver: {status}")
 

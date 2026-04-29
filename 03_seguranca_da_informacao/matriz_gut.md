@@ -1,7 +1,7 @@
-# Matriz GUT — Priorização de Vulnerabilidades
+﻿# Matriz GUT - Priorização de Vulnerabilidades
 
 **Disciplina:** Segurança da Informação  
-**Projeto:** OptiFlow — Plataforma de Otimização Logística  
+**Projeto:** OptiFlow - Plataforma de Otimização Logística  
 **Versão:** 1.0  
 **Data:** 2026
 
@@ -85,7 +85,7 @@ PRIORIDADE      SCORE    VULNERABILIDADE
 
 ## 4. Plano de Tratamento por Prioridade
 
-### 4.1 Vulnerabilidades Críticas (Score ≥ 100) — Tratar Imediatamente
+### 4.1 Vulnerabilidades Críticas (Score ≥ 100) - Tratar Imediatamente
 
 | Vuln. | Ação Principal                         | Responsável       | Prazo     |
 |-------|----------------------------------------|-------------------|-----------|
@@ -94,7 +94,7 @@ PRIORIDADE      SCORE    VULNERABILIDADE
 | V-03  | Criptografar campos sensíveis com AES-256 antes de salvar | Dev Back-end | Sprint 2 |
 | V-04  | Validar assinatura JWT com biblioteca oficial; expiração de 15 min | Dev Back-end | Sprint 1 |
 
-### 4.2 Vulnerabilidades Altas (Score 60–99) — Tratar em Curto Prazo
+### 4.2 Vulnerabilidades Altas (Score 60–99) - Tratar em Curto Prazo
 
 | Vuln. | Ação Principal                         | Responsável       | Prazo     |
 |-------|----------------------------------------|-------------------|-----------|
@@ -103,7 +103,7 @@ PRIORIDADE      SCORE    VULNERABILIDADE
 | V-07  | Verificar ownership em cada endpoint (user_id == resource.owner_id) | Dev Back-end | Sprint 2 |
 | V-08  | Habilitar HSTS + redirecionar HTTP para HTTPS | DevOps | Sprint 1 |
 
-### 4.3 Vulnerabilidades Médias (Score 30–59) — Tratar em Médio Prazo
+### 4.3 Vulnerabilidades Médias (Score 30–59) - Tratar em Médio Prazo
 
 | Vuln. | Ação Principal                         | Responsável       | Prazo     |
 |-------|----------------------------------------|-------------------|-----------|
@@ -112,7 +112,7 @@ PRIORIDADE      SCORE    VULNERABILIDADE
 | V-11  | Configurar JWT com sliding session e timeout de inatividade | Dev Back-end | Sprint 4 |
 | V-12  | Configurar Dependabot no GitHub + revisão mensal | DevOps | Sprint 1 |
 
-### 4.4 Vulnerabilidades Baixas (Score < 30) — Monitorar
+### 4.4 Vulnerabilidades Baixas (Score < 30) - Monitorar
 
 | Vuln. | Ação Principal                         | Responsável       | Prazo     |
 |-------|----------------------------------------|-------------------|-----------|

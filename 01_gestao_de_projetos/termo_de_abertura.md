@@ -1,6 +1,6 @@
-# Termo de Abertura do Projeto (TAP)
+﻿# Termo de Abertura do Projeto (TAP)
 
-**Projeto:** OptiFlow — Plataforma de Otimização Logística  
+**Projeto:** OptiFlow - Plataforma de Otimização Logística  
 **Versão:** 1.0  
 **Data:** 2026  
 **Status:** Aprovado
@@ -11,13 +11,13 @@
 
 | Campo                  | Informação                                             |
 |------------------------|--------------------------------------------------------|
-| **Nome do Projeto**    | OptiFlow Logística Inteligente — Projeto Integrador    |
+| **Nome do Projeto**    | OptiFlow Logística Inteligente - Projeto Integrador    |
 | **Patrocinador**       | Universidade Nove de Julho (UNINOVE)                   |
 | **Gerente do Projeto** | Daniel Tomazi de Oliveira                              |
 | **RA**                 | A preencher                                            |
 | **Data de Início**     | 2026                                                   |
 | **Data de Término**    | Ao final do semestre letivo                            |
-| **Categoria**          | Projeto Acadêmico — Projeto Integrador                 |
+| **Categoria**          | Projeto Acadêmico - Projeto Integrador                 |
 
 ---
 
@@ -69,12 +69,12 @@ Desenvolver a concepção técnica e acadêmica da plataforma OptiFlow, integran
 
 | Marco                        | Entrega                                         | Prazo       |
 |------------------------------|-------------------------------------------------|-------------|
-| M1 — Início                  | TAP aprovado, EAP e RACI definidos              | Semana 2    |
-| M2 — Planejamento            | Cronograma, riscos, comunicação e backlog       | Semana 4    |
-| M3 — Análise de Dados        | Dataset, scripts ETL, KPIs, gráficos, notebook  | Semana 9    |
-| M4 — Segurança               | Mapeamento de ameaças, GUT, auth, LGPD          | Semana 11   |
-| M5 — Pesquisa Operacional    | Modelos de otimização e análise de cenários     | Semana 14   |
-| M6 — Encerramento            | Relatório final, vídeo, repositório completo    | Semana 16   |
+| M1 - Início                  | TAP aprovado, EAP e RACI definidos              | Semana 2    |
+| M2 - Planejamento            | Cronograma, riscos, comunicação e backlog       | Semana 4    |
+| M3 - Análise de Dados        | Dataset, scripts ETL, KPIs, gráficos, notebook  | Semana 9    |
+| M4 - Segurança               | Mapeamento de ameaças, GUT, auth, LGPD          | Semana 11   |
+| M5 - Pesquisa Operacional    | Modelos de otimização e análise de cenários     | Semana 14   |
+| M6 - Encerramento            | Relatório final, vídeo, repositório completo    | Semana 16   |
 
 ---
 

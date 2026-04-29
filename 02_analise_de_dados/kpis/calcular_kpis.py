@@ -1,8 +1,8 @@
-"""
+﻿"""
 OptiFlow Logística Inteligente
 ==============================
 Script: calcular_kpis.py
-Módulo: KPIs — Indicadores-Chave de Desempenho
+Módulo: KPIs - Indicadores-Chave de Desempenho
 Descrição: Carrega o dataset logístico e calcula os principais KPIs
            operacionais da OptiFlow, exibindo os resultados no console.
 
@@ -87,7 +87,7 @@ def kpi_faturamento_mensal(df: pd.DataFrame) -> pd.DataFrame:
     """
     KPI 1: Faturamento mensal total (soma dos valores dos pedidos por mês).
     """
-    separador("KPI 1 — FATURAMENTO MENSAL")
+    separador("KPI 1 - FATURAMENTO MENSAL")
 
     faturamento = (
         df.groupby("ano_mes")["valor_pedido"]
@@ -115,7 +115,7 @@ def kpi_tempo_medio_entrega(df: pd.DataFrame) -> dict:
     """
     KPI 2: Tempo médio de entrega global e por região (em minutos).
     """
-    separador("KPI 2 — TEMPO MÉDIO DE ENTREGA")
+    separador("KPI 2 - TEMPO MÉDIO DE ENTREGA")
 
     tempo_geral = df["tempo_entrega"].mean()
     tempo_mediano = df["tempo_entrega"].median()
@@ -145,7 +145,7 @@ def kpi_custo_medio_entrega(df: pd.DataFrame) -> dict:
     """
     KPI 3: Custo médio por entrega (global e por região).
     """
-    separador("KPI 3 — CUSTO MÉDIO POR ENTREGA")
+    separador("KPI 3 - CUSTO MÉDIO POR ENTREGA")
 
     custo_medio = df["custo_entrega"].mean()
     custo_total = df["custo_entrega"].sum()
@@ -174,7 +174,7 @@ def kpi_taxa_no_prazo(df: pd.DataFrame) -> dict:
     """
     KPI 4: Taxa de entregas no prazo (tempo <= PRAZO_MAX_MINUTOS).
     """
-    separador(f"KPI 4 — TAXA DE ENTREGAS NO PRAZO (≤ {PRAZO_MAX_MINUTOS} min)")
+    separador(f"KPI 4 - TAXA DE ENTREGAS NO PRAZO (≤ {PRAZO_MAX_MINUTOS} min)")
 
     total = len(df)
     no_prazo = df["entrega_no_prazo"].sum()
@@ -203,7 +203,7 @@ def kpi_performance_motoristas(df: pd.DataFrame) -> pd.DataFrame:
     """
     KPI 5: Performance dos motoristas (Top 10 por valor entregue).
     """
-    separador("KPI 5 — PERFORMANCE DE MOTORISTAS (Top 10)")
+    separador("KPI 5 - PERFORMANCE DE MOTORISTAS (Top 10)")
 
     perf = (
         df.groupby("id_motorista")
@@ -242,7 +242,7 @@ def kpi_performance_motoristas(df: pd.DataFrame) -> pd.DataFrame:
 def main():
     """Executa todos os KPIs e exibe o painel no console."""
     print("=" * 55)
-    print("  OptiFlow — Painel de KPIs Logísticos")
+    print("  OptiFlow - Painel de KPIs Logísticos")
     print("=" * 55)
 
     df = carregar_dados()
@@ -255,7 +255,7 @@ def main():
     perf_motoristas     = kpi_performance_motoristas(df)
 
     # Resumo Executivo
-    separador("RESUMO EXECUTIVO — OPTIFLOW KPIs")
+    separador("RESUMO EXECUTIVO - OPTIFLOW KPIs")
     print(f"  Faturamento Total       : {formatar_brl(df['valor_pedido'].sum())}")
     print(f"  Custo Total de Entregas : {formatar_brl(df['custo_entrega'].sum())}")
     print(f"  Tempo Médio de Entrega  : {tempo_info['tempo_medio_global']} min")

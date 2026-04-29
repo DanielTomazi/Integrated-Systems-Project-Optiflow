@@ -1,8 +1,8 @@
-"""
+﻿"""
 OptiFlow Logística Inteligente
 ==============================
 Script: grafico_performance_entregas.py
-Módulo: Visualização — Performance de Entregas
+Módulo: Visualização - Performance de Entregas
 Descrição: Gera gráficos de análise de performance operacional das
            entregas, por região, motorista e dimensão temporal.
 
@@ -94,7 +94,7 @@ def carregar_dados() -> pd.DataFrame:
 
 def grafico_entregas_por_regiao(df: pd.DataFrame, ax: plt.Axes) -> None:
     """
-    Gráfico 1: Barras horizontais — volume de entregas por região.
+    Gráfico 1: Barras horizontais - volume de entregas por região.
     """
     contagem = df["regiao_cliente"].value_counts().sort_values()
     cores    = [PALETTE.get(r, COR_PRINCIPAL) for r in contagem.index]
@@ -117,7 +117,7 @@ def grafico_entregas_por_regiao(df: pd.DataFrame, ax: plt.Axes) -> None:
 
 def grafico_prazo_por_regiao(df: pd.DataFrame, ax: plt.Axes) -> None:
     """
-    Gráfico 2: Barras empilhadas — entregas no prazo vs. atrasadas por região.
+    Gráfico 2: Barras empilhadas - entregas no prazo vs. atrasadas por região.
     """
     pivot = df.groupby(["regiao_cliente", "status_entrega"]).size().unstack(fill_value=0)
 
@@ -174,7 +174,7 @@ def grafico_boxplot_tempo(df: pd.DataFrame, ax: plt.Axes) -> None:
 
 def grafico_custo_medio_regiao(df: pd.DataFrame, ax: plt.Axes) -> None:
     """
-    Gráfico 4: Barras — custo médio de entrega por região com linha de meta.
+    Gráfico 4: Barras - custo médio de entrega por região com linha de meta.
     """
     custo = df.groupby("regiao_cliente")["custo_entrega"].mean().sort_values(ascending=False)
     cores = [PALETTE.get(r, COR_PRINCIPAL) for r in custo.index]
@@ -228,7 +228,7 @@ def grafico_volume_temporal(df: pd.DataFrame, ax: plt.Axes) -> None:
 
 def grafico_heatmap_motorista_regiao(df: pd.DataFrame, ax: plt.Axes) -> None:
     """
-    Gráfico 6: Heatmap — número de entregas por motorista e região.
+    Gráfico 6: Heatmap - número de entregas por motorista e região.
     """
     pivot = df.pivot_table(
         index="id_motorista", columns="regiao_cliente",
@@ -257,7 +257,7 @@ def grafico_heatmap_motorista_regiao(df: pd.DataFrame, ax: plt.Axes) -> None:
 def main():
     """Gera e salva o painel de performance de entregas."""
     print("=" * 55)
-    print("  OptiFlow — Gráficos de Performance de Entregas")
+    print("  OptiFlow - Gráficos de Performance de Entregas")
     print("=" * 55)
 
     df = carregar_dados()
@@ -265,7 +265,7 @@ def main():
     # Painel 1: 2×2 (Regiões e Prazo)
     fig1, axes1 = plt.subplots(2, 2, figsize=(16, 12))
     fig1.suptitle(
-        "OptiFlow — Performance de Entregas por Região 2025",
+        "OptiFlow - Performance de Entregas por Região 2025",
         fontsize=15, fontweight="bold"
     )
     grafico_entregas_por_regiao(df, axes1[0, 0])
@@ -280,7 +280,7 @@ def main():
     # Painel 2: 1×2 (Temporal e Heatmap)
     fig2, axes2 = plt.subplots(1, 2, figsize=(18, 7))
     fig2.suptitle(
-        "OptiFlow — Volume Temporal e Distribuição por Motorista",
+        "OptiFlow - Volume Temporal e Distribuição por Motorista",
         fontsize=15, fontweight="bold"
     )
     grafico_volume_temporal(df, axes2[0])

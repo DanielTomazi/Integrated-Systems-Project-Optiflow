@@ -1,7 +1,7 @@
-# Adequação à LGPD — OptiFlow Logística Inteligente
+﻿# Adequação à LGPD - OptiFlow Logística Inteligente
 
 **Disciplina:** Segurança da Informação  
-**Projeto:** OptiFlow — Plataforma de Otimização Logística  
+**Projeto:** OptiFlow - Plataforma de Otimização Logística  
 **Versão:** 1.0  
 **Referência Legal:** Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais)
 
@@ -184,7 +184,7 @@ def processar_exclusao_titular(usuario_id: int) -> dict:
 | Categoria de Dado                          | Prazo de Retenção                                  |
 |--------------------------------------------|-----------------------------------------------------|
 | Dados de conta ativa                       | Enquanto a conta estiver ativa                      |
-| Logs de acesso e segurança                 | 90 dias (obrigação legal — Marco Civil da Internet) |
+| Logs de acesso e segurança                 | 90 dias (obrigação legal - Marco Civil da Internet) |
 | Histórico de pedidos (anonimizado)         | 5 anos (obrigação fiscal)                           |
 | Dados de localização GPS                   | 30 dias (dados brutos); 1 ano (agregados)           |
 | Dados após solicitação de exclusão         | Excluídos em até 30 dias (exceto obrigação legal)   |
@@ -227,7 +227,7 @@ Conforme Art. 41 da LGPD, a OptiFlow designa um **Encarregado de Dados (DPO)**:
 | Nome              | *A designar na implementação real*                |
 | E-mail de contato | privacidade@optiflow.com                          |
 | Canais adicionais | Formulário no site > "Privacidade e Dados"        |
-| Reporte           | ANPD — quando exigido por lei                     |
+| Reporte           | ANPD - quando exigido por lei                     |
 
 ---
 
@@ -263,7 +263,7 @@ Remediação e Relatório Final
 
 ---
 
-## 9. Política de Privacidade — Resumo Executivo
+## 9. Política de Privacidade - Resumo Executivo
 
 A **Política de Privacidade completa** da OptiFlow deve ser publicada no site e aceita pelos usuários no cadastro. Os pontos essenciais são:
 
@@ -277,4 +277,4 @@ A **Política de Privacidade completa** da OptiFlow deve ser publicada no site e
 
 ---
 
-*Referências: LGPD (Lei 13.709/2018) | ANPD — Guia Orientativo para Definições dos Agentes de Tratamento | ABNT NBR ISO/IEC 27701:2019*
+*Referências: LGPD (Lei 13.709/2018) | ANPD - Guia Orientativo para Definições dos Agentes de Tratamento | ABNT NBR ISO/IEC 27701:2019*

@@ -1,4 +1,4 @@
-# Problema de Negócio — OptiFlow Logística Inteligente
+﻿# Problema de Negócio - OptiFlow Logística Inteligente
 
 ## 1. Contexto
 
@@ -8,7 +8,7 @@ O setor de e-commerce brasileiro cresceu mais de **300%** na última década. Co
 
 ## 2. Diagnóstico dos Problemas
 
-### Problema 1 — Rotas de Entrega Ineficientes
+### Problema 1 - Rotas de Entrega Ineficientes
 
 **Descrição:**  
 A ausência de roteirização inteligente leva motoristas a percorrerem trajetos com backtracking (ida e volta desnecessária), sem considerar trânsito, janelas de tempo ou capacidade de carga.
@@ -20,7 +20,7 @@ A ausência de roteirização inteligente leva motoristas a percorrerem trajetos
 
 ---
 
-### Problema 2 — Altos Custos Logísticos
+### Problema 2 - Altos Custos Logísticos
 
 **Descrição:**  
 Sem visibilidade de custos por entrega, pedido ou região, os gestores não conseguem identificar onde o dinheiro está sendo perdido. O custo logístico chega a representar 15–25% do valor do pedido em alguns casos.
@@ -32,7 +32,7 @@ Sem visibilidade de custos por entrega, pedido ou região, os gestores não cons
 
 ---
 
-### Problema 3 — Atrasos nas Entregas
+### Problema 3 - Atrasos nas Entregas
 
 **Descrição:**  
 A falta de planejamento de capacidade gera sobrecarga em alguns motoristas enquanto outros ficam ociosos. Isso resulta em atrasos sistemáticos que impactam diretamente a satisfação do cliente.
@@ -44,7 +44,7 @@ A falta de planejamento de capacidade gera sobrecarga em alguns motoristas enqua
 
 ---
 
-### Problema 4 — Má Alocação de Motoristas
+### Problema 4 - Má Alocação de Motoristas
 
 **Descrição:**  
 A distribuição de motoristas entre regiões é feita de forma empírica, sem considerar a demanda histórica por área, disponibilidade dos motoristas ou eficiência individual.
@@ -56,7 +56,7 @@ A distribuição de motoristas entre regiões é feita de forma empírica, sem c
 
 ---
 
-### Problema 5 — Falta de Análise de Dados para Tomada de Decisão
+### Problema 5 - Falta de Análise de Dados para Tomada de Decisão
 
 **Descrição:**  
 Os gestores não possuem acesso a indicadores operacionais em tempo real. Decisões são tomadas com base em planilhas manuais, relatos verbais ou intuição, sem embasamento analítico.
@@ -94,7 +94,7 @@ Os gestores não possuem acesso a indicadores operacionais em tempo real. Decis�
 
 | Problema                         | Solução OptiFlow                                         |
 |----------------------------------|----------------------------------------------------------|
-| Rotas ineficientes               | Algoritmo de otimização (VRP — Vehicle Routing Problem)  |
+| Rotas ineficientes               | Algoritmo de otimização (VRP - Vehicle Routing Problem)  |
 | Altos custos sem visibilidade    | Dashboard de KPIs com custo por entrega/região           |
 | Atrasos nas entregas             | Planejamento de capacidade com dados históricos          |
 | Má alocação de motoristas        | Modelo de programação linear para alocação otimizada     |

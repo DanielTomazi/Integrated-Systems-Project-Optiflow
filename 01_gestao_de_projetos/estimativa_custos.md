@@ -1,6 +1,6 @@
-# Estimativa de Custos — Projeto OptiFlow
+﻿# Estimativa de Custos - Projeto OptiFlow
 
-**Projeto:** OptiFlow — Plataforma de Otimização Logística  
+**Projeto:** OptiFlow - Plataforma de Otimização Logística  
 **Versão:** 1.0  
 **Data:** 2026
 
@@ -28,26 +28,26 @@ Este documento apresenta a estimativa de custos do Projeto Integrador OptiFlow. 
 
 | Fase                          | Horas Estimadas | Valor/Hora | Subtotal      |
 |-------------------------------|-----------------|------------|---------------|
-| Fase 1 — Iniciação            | 8 h             | R$ 35,00   | R$ 280,00     |
-| Fase 2 — Planejamento         | 12 h            | R$ 35,00   | R$ 420,00     |
-| Fase 3 — Análise de Dados     | 35 h            | R$ 35,00   | R$ 1.225,00   |
-| Fase 4 — Segurança da Info.   | 20 h            | R$ 35,00   | R$ 700,00     |
-| Fase 5 — Pesquisa Operacional | 25 h            | R$ 35,00   | R$ 875,00     |
-| Fase 6 — Encerramento         | 12 h            | R$ 35,00   | R$ 420,00     |
-| **Total RH**                  | **112 h**       | —          | **R$ 3.920,00** |
+| Fase 1 - Iniciação            | 8 h             | R$ 35,00   | R$ 280,00     |
+| Fase 2 - Planejamento         | 12 h            | R$ 35,00   | R$ 420,00     |
+| Fase 3 - Análise de Dados     | 35 h            | R$ 35,00   | R$ 1.225,00   |
+| Fase 4 - Segurança da Info.   | 20 h            | R$ 35,00   | R$ 700,00     |
+| Fase 5 - Pesquisa Operacional | 25 h            | R$ 35,00   | R$ 875,00     |
+| Fase 6 - Encerramento         | 12 h            | R$ 35,00   | R$ 420,00     |
+| **Total RH**                  | **112 h**       | -          | **R$ 3.920,00** |
 
 ### 3.2 Ferramentas e Infraestrutura
 
 | Recurso              | Tipo      | Custo Mensal | Duração  | Custo Total   |
 |----------------------|-----------|--------------|----------|---------------|
-| Python 3.10+         | Open Source | R$ 0,00    | —        | R$ 0,00       |
-| pandas / numpy       | Open Source | R$ 0,00    | —        | R$ 0,00       |
-| matplotlib / seaborn | Open Source | R$ 0,00    | —        | R$ 0,00       |
-| PuLP                 | Open Source | R$ 0,00    | —        | R$ 0,00       |
-| Jupyter Notebook     | Open Source | R$ 0,00    | —        | R$ 0,00       |
+| Python 3.10+         | Open Source | R$ 0,00    | -        | R$ 0,00       |
+| pandas / numpy       | Open Source | R$ 0,00    | -        | R$ 0,00       |
+| matplotlib / seaborn | Open Source | R$ 0,00    | -        | R$ 0,00       |
+| PuLP                 | Open Source | R$ 0,00    | -        | R$ 0,00       |
+| Jupyter Notebook     | Open Source | R$ 0,00    | -        | R$ 0,00       |
 | GitHub               | Freemium    | R$ 0,00    | 4 meses  | R$ 0,00       |
-| VS Code              | Gratuito    | R$ 0,00    | —        | R$ 0,00       |
-| **Total Ferramentas**|           | —            | —        | **R$ 0,00**   |
+| VS Code              | Gratuito    | R$ 0,00    | -        | R$ 0,00       |
+| **Total Ferramentas**|           | -            | -        | **R$ 0,00**   |
 
 ### 3.3 Recursos Físicos
 

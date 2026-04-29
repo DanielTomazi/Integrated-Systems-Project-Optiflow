@@ -1,7 +1,7 @@
-# Arquitetura de Autenticação e Controle de Acesso — OptiFlow
+﻿# Arquitetura de Autenticação e Controle de Acesso - OptiFlow
 
 **Disciplina:** Segurança da Informação  
-**Projeto:** OptiFlow — Plataforma de Otimização Logística  
+**Projeto:** OptiFlow - Plataforma de Otimização Logística  
 **Versão:** 1.0  
 **Data:** 2026
 
@@ -90,7 +90,7 @@ def verificar_senha(senha_plaintext: str, hash_armazenado: str) -> bool:
 
 # ── EXEMPLO DE USO ──
 # hash_db = gerar_hash_senha("MinhaSenhaForte@2026")
-# # Armazenar 'hash_db' — NUNCA 'MinhaSenhaForte@2026'
+# # Armazenar 'hash_db' - NUNCA 'MinhaSenhaForte@2026'
 #
 # login_ok = verificar_senha("MinhaSenhaForte@2026", hash_db)
 # # login_ok = True
@@ -197,7 +197,7 @@ def gerar_access_token(user_id: int, role: str, empresa_id: int) -> str:
         "empresa_id": empresa_id,
         "iat":       datetime.now(timezone.utc),
         "exp":       datetime.now(timezone.utc) + timedelta(minutes=15),
-        "jti":       str(uuid.uuid4()),   # ID único — permite revogação
+        "jti":       str(uuid.uuid4()),   # ID único - permite revogação
     }
     return jwt.encode(payload, SECRET_KEY, algorithm=ALGORITHM)
 
@@ -222,7 +222,7 @@ def verificar_token(token: str) -> dict:
 
 ---
 
-## 4. Autenticação em Dois Fatores (2FA — TOTP)
+## 4. Autenticação em Dois Fatores (2FA - TOTP)
 
 ### 4.1 Visão Geral
 

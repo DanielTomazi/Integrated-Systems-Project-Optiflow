@@ -1,6 +1,6 @@
-"""
+﻿"""
 ==============================================================================
-OptiFlow — Análise de Cenários: Alocação de Motoristas por Região
+OptiFlow - Análise de Cenários: Alocação de Motoristas por Região
 Disciplina: Pesquisa Operacional
 ==============================================================================
 Objetivo: Avaliar como diferentes configurações operacionais impactam
@@ -169,7 +169,7 @@ def definir_cenarios():
 
     cenarios = []
 
-    # C1 — Baseline
+    # C1 - Baseline
     cenarios.append({
         "motoristas":   copy.deepcopy(motoristas_base),
         "regioes":      copy.deepcopy(regioes_base),
@@ -178,7 +178,7 @@ def definir_cenarios():
         "nome_cenario": "C1 - Baseline"
     })
 
-    # C2 — Redução de 30% nas horas disponíveis
+    # C2 - Redução de 30% nas horas disponíveis
     mot_c2 = copy.deepcopy(motoristas_base)
     for m in mot_c2:
         mot_c2[m]["horas_disponiveis"] = round(mot_c2[m]["horas_disponiveis"] * 0.70, 1)
@@ -188,7 +188,7 @@ def definir_cenarios():
         "regioes_max_por_motorista": 2, "nome_cenario": "C2 - Redução de Horas (-30%)"
     })
 
-    # C3 — Aumento de 40% na demanda
+    # C3 - Aumento de 40% na demanda
     reg_c3 = copy.deepcopy(regioes_base)
     for r in reg_c3:
         reg_c3[r]["demanda_minima"] = int(reg_c3[r]["demanda_minima"] * 1.40)
@@ -198,7 +198,7 @@ def definir_cenarios():
         "regioes_max_por_motorista": 2, "nome_cenario": "C3 - Alta Demanda (+40%)"
     })
 
-    # C4 — Apenas motoristas nível 3
+    # C4 - Apenas motoristas nível 3
     mot_c4 = {m: v for m, v in motoristas_base.items() if v["nivel_experiencia"] == 3}
     cenarios.append({
         "motoristas": mot_c4, "regioes": copy.deepcopy(regioes_base),
@@ -207,7 +207,7 @@ def definir_cenarios():
         "regioes_max_por_motorista": 2, "nome_cenario": "C4 - Somente Nível 3"
     })
 
-    # C5 — Frota reduzida (6 motoristas, excluir M004, M006, M010, M008)
+    # C5 - Frota reduzida (6 motoristas, excluir M004, M006, M010, M008)
     mot_c5 = {m: v for m, v in motoristas_base.items() if m not in ["M004", "M006", "M008", "M010"]}
     cenarios.append({
         "motoristas": mot_c5, "regioes": copy.deepcopy(regioes_base),
@@ -232,7 +232,7 @@ def gerar_graficos(resultados: list, pasta_saida: str):
     df_ok = df[df["status"] == "Optimal"].copy()
 
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 6))
-    fig.suptitle("Análise de Cenários — Alocação de Motoristas (OptiFlow)", fontweight="bold")
+    fig.suptitle("Análise de Cenários - Alocação de Motoristas (OptiFlow)", fontweight="bold")
 
     cores = ["#1565C0", "#2E7D32", "#E65100", "#6A1B9A", "#00838F"]
     labels = [c.split(" - ")[0] for c in df_ok["cenario"]]
@@ -267,7 +267,7 @@ def gerar_graficos(resultados: list, pasta_saida: str):
 
 def imprimir_comparativo(resultados: list):
     print("\n" + "=" * 80)
-    print("  ANÁLISE COMPARATIVA DE CENÁRIOS — Alocação de Motoristas")
+    print("  ANÁLISE COMPARATIVA DE CENÁRIOS - Alocação de Motoristas")
     print("=" * 80)
     print(f"  {'Cenário':<35} {'Status':<10} {'Efic. Total':>12} {'Mot. Alocados':>14}")
     print("-" * 80)
@@ -293,7 +293,7 @@ def imprimir_comparativo(resultados: list):
 # ─────────────────────────────────────────────────────────────────────────────
 
 def main():
-    print("\n  OptiFlow — Análise de Cenários: Alocação de Motoristas")
+    print("\n  OptiFlow - Análise de Cenários: Alocação de Motoristas")
     print("  " + "─" * 55)
 
     cenarios = definir_cenarios()

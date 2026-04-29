@@ -1,8 +1,8 @@
-"""
+﻿"""
 OptiFlow Logística Inteligente
 ==============================
 Script: grafico_receita.py
-Módulo: Visualização — Análise de Faturamento
+Módulo: Visualização - Análise de Faturamento
 Descrição: Gera gráficos de análise do faturamento ao longo do tempo
            e por região para a OptiFlow.
 
@@ -122,7 +122,7 @@ def grafico_faturamento_linha(df: pd.DataFrame, ax: plt.Axes) -> None:
             arrowprops=dict(arrowstyle="->", color=cor, lw=1.5)
         )
 
-    ax.set_title("Faturamento Mensal — OptiFlow 2025")
+    ax.set_title("Faturamento Mensal - OptiFlow 2025")
     ax.set_xlabel("Mês")
     ax.set_ylabel("Faturamento (R$)")
     ax.yaxis.set_major_formatter(mticker.FuncFormatter(formatar_eixo_brl))
@@ -226,7 +226,7 @@ def grafico_ticket_medio(df: pd.DataFrame, ax: plt.Axes) -> None:
 def main():
     """Gera o painel completo de gráficos de receita."""
     print("=" * 55)
-    print("  OptiFlow — Gráficos de Receita e Faturamento")
+    print("  OptiFlow - Gráficos de Receita e Faturamento")
     print("=" * 55)
 
     df = carregar_dados()
@@ -234,7 +234,7 @@ def main():
     # Criar figura com 4 subplots
     fig, axes = plt.subplots(2, 2, figsize=(16, 12))
     fig.suptitle(
-        "OptiFlow Logística Inteligente — Análise de Receita 2025",
+        "OptiFlow Logística Inteligente - Análise de Receita 2025",
         fontsize=16, fontweight="bold", y=1.01
     )
 
