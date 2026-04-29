@@ -10,4 +10,16 @@ O vídeo de apresentação do projeto OptiFlow está hospedado e disponível no 
 
 ## Informações
 
-<!-- Adicione aqui informações sobre o vídeo, como duração, data de gravação, membros da equipe, descrição do conteúdo, etc. -->
+Matérias e Professores do Semestre
+
+Segurança da Informação:
+Prof. Marcos Jose da Silva Barbosa
+
+Gerência de Projetos em TI:
+Prof. Marcio Romero
+
+Análise de Dados:
+Prof.ª Debora Virgilia Canne
+
+Pesquisa Operacional e Projeto em Gestão de Sistemas:
+Prof. Felipe Santos de Jesus
