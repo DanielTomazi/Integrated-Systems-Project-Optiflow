@@ -8,7 +8,7 @@
 | Aluno          | Daniel Tomazi de Oliveira                        |
 | RA             | A preencher                                      |
 | Curso          | Ciência da Computação                               |
-| Período        | 2026 - Semestre Letivo                           |
+| Período        | 2026 - 8º semestre                           |
 | Orientador     | Prof. Felipe Santos de Jesus                     |
 | Data de Início | 2026                                             |
 
